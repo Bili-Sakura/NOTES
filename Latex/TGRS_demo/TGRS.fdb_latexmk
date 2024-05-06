@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1714907282.122 "d:/Zotero/notes(sakura)/Latex/TGRS(demo)/TGRS.tex" "TGRS.pdf" "TGRS" 1714907282.85654 0
-  "TGRS.aux" 1714907282 1172 8e330c95c63d496501cbe20de8414534 "pdflatex"
-  "TGRS.tex" 1714907264 28411 4517a547a75f36906e706ca07dd7ed80 ""
+["pdflatex"] 1714960329.01781 "d:/Zotero/notes(sakura)/Latex/TGRS_demo/TGRS.tex" "TGRS.pdf" "TGRS" 1714960329.73789 0
+  "TGRS.aux" 1714960329 1172 8e330c95c63d496501cbe20de8414534 "pdflatex"
+  "TGRS.tex" 1714907285 28411 4517a547a75f36906e706ca07dd7ed80 ""
   "d:/Latex/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1714887546 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "d:/Latex/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1714887655 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "d:/Latex/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1714888551 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -38,7 +38,7 @@
   "d:/Latex/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1714888760 5513084 163f2d3ebcb42df146433d0a508441fc ""
   "d:/Latex/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1714888893 8221668 428d8676d16a09042632044777712700 ""
   "d:/Latex/texlive/2024/texmf.cnf" 1714888747 713 e69b156964470283e0530f5060668171 ""
-  "d:/Zotero/notes(sakura)/Latex/TGRS(demo)/TGRS.tex" 1714907264 28411 4517a547a75f36906e706ca07dd7ed80 ""
+  "d:/Zotero/notes(sakura)/Latex/TGRS_demo/TGRS.tex" 1714907285 28411 4517a547a75f36906e706ca07dd7ed80 ""
   (generated)
   "TGRS.aux"
   "TGRS.log"
