@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.5)  5 MAY 2024 19:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.5)  6 MAY 2024 09:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/Zotero/notes(sakura)/Latex/TGRS(demo)/TGRS.tex
-(d:/Zotero/notes(sakura)/Latex/TGRS(demo)/TGRS.tex
+**d:/Zotero/notes(sakura)/Latex/TGRS_demo/TGRS.tex
+(d:/Zotero/notes(sakura)/Latex/TGRS_demo/TGRS.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (d:/Latex/texlive/2024/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
@@ -147,12 +147,12 @@ L3 programming layer <2024-02-20>
  ) 
 Here is how much of TeX's memory you used:
  1305 strings out of 474115
- 26034 string characters out of 5744679
+ 26031 string characters out of 5744679
  1933190 words of memory out of 5000000
  23713 multiletter control sequences out of 15000+600000
  601161 words of font info for 105 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 36i,8n,56p,240b,236s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 36i,8n,56p,239b,236s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/Latex/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><d:/Latex/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><d:/Latex/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><d:/Latex/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 Output written on TGRS.pdf (1 page, 55285 bytes).
 PDF statistics:

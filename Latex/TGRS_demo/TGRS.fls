@@ -1,8 +1,8 @@
-PWD d:/Zotero/notes(sakura)/Latex/TGRS(demo)
+PWD d:/Zotero/notes(sakura)/Latex/TGRS_demo
 INPUT d:/Latex/texlive/2024/texmf.cnf
 INPUT d:/Latex/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT d:/Latex/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT d:/Zotero/notes(sakura)/Latex/TGRS(demo)/TGRS.tex
+INPUT d:/Zotero/notes(sakura)/Latex/TGRS_demo/TGRS.tex
 OUTPUT TGRS.log
 INPUT d:/Latex/texlive/2024/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
 INPUT d:/Latex/texlive/2024/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
