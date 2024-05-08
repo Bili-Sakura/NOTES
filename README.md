@@ -130,8 +130,8 @@ CCF-B: ECCV & TGRS
 #### 一、遥感顶刊论文导读
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Bili-Sakura/NOTES/main/Assets/TGRS_Course_demo1.png" alt="TGRS_Course_demo1">
-<img src="https://raw.githubusercontent.com/Bili-Sakura/NOTES/main/Assets/TGRS_Course_demo2.png" alt="TGRS_Course_demo2">
+<img src="https://raw.githubusercontent.com/Bili-Sakura/NOTES/main/assets/TGRS_Course_demo1.png" alt="TGRS_Course_demo1">
+<img src="https://raw.githubusercontent.com/Bili-Sakura/NOTES/main/assets/TGRS_Course_demo2.png" alt="TGRS_Course_demo2">
 </div>
 <div align="center">
 导读Demo
@@ -146,9 +146,9 @@ CCF-B: ECCV & TGRS
 > 视频内容：经典入门论文导读 | 简易实践项目 | 简易工程开发 | LLM顶会论文前沿导读  
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Bili-Sakura/NOTES/main/Assets/llm_course_demo1.gif" alt="llm_course_demo1">
-<img src="https://raw.githubusercontent.com/Bili-Sakura/NOTES/main/Assets/llm_course_demo2.gif" alt="llm_course_demo2">
-<img src="https://raw.githubusercontent.com/Bili-Sakura/NOTES/main/Assets/llm_course_demo3.png" alt="llm_course_demo3">
+<img src="https://raw.githubusercontent.com/Bili-Sakura/NOTES/main/assets/llm_course_demo1.gif" alt="llm_course_demo1">
+<img src="https://raw.githubusercontent.com/Bili-Sakura/NOTES/main/assets/llm_course_demo2.gif" alt="llm_course_demo2">
+<img src="https://raw.githubusercontent.com/Bili-Sakura/NOTES/main/assets/llm_course_demo3.png" alt="llm_course_demo3">
 </div>
 <div align="center">
 Demo
