@@ -34,7 +34,7 @@ Profile of Sakura
 [一、Zotero的安装和环境配置]()
 
 [二、Zotero推荐插件]()
- 
+
 [三、Zotero文献管理和协作技巧]()
 
 [四、Zotero + GitHub全栈科研工作流构建]()
@@ -58,7 +58,7 @@ Profile of Sakura
 [一、LaTex语言介绍]()
 
 [二、LaTex数学公式数学]()
- 
+
 [三、LaTex常用语法]()
 
 [四、Overleaf在线LaTex论文编辑器]()
@@ -76,7 +76,6 @@ Profile of Sakura
 [五分钟掌握HTML语法]()
 
 [五分钟学会LaTex数学公式书写]()
-
 
 #### 五、（泛）科研杂谈
 
@@ -141,9 +140,9 @@ CCF-B: ECCV & TGRS
 
 > [!TIP]
 
-> 面向群体：对大语言模型理论和实践感兴趣的学生/社会人士    
-> 视频时长: ~   
-> 视频内容：经典入门论文导读 | 简易实践项目 | 简易工程开发 | LLM顶会论文前沿导读  
+> 面向群体：对大语言模型理论和实践感兴趣的学生/社会人士  
+> 视频时长: ~  
+> 视频内容：经典入门论文导读 | 简易实践项目 | 简易工程开发 | LLM顶会论文前沿导读
 
 <div align="center">
 <img src="./Assets/llm_course_demo1.gif" alt="llm_course_demo1">
@@ -153,3 +152,6 @@ CCF-B: ECCV & TGRS
 <div align="center">
 Demo
 </div>
+
+[【序】]
+> 论文架构
