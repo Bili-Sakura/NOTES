@@ -109,9 +109,47 @@ Profile of Sakura
 
 > [!TIP]
 
-> 面向群体：本科生&研究生&社会人士  
-> 观众定位：有较强科学意愿和学习意愿的高校学生&公司文员&自媒体编辑  
-> 视频平均时长: 12分钟  
-> 视频定位：系统性的教学开源制图软件`QGIS`的使用以及其他制图工具和技术，制图是**环境学、资源学、地球科学等专业**的必备技能，在人文社科领域也有广泛的应用；此外，公司文员和自媒体编辑等掌握简单的制图技术能有效提升报告的吸引力和质量
+> 面向群体：从事遥感方向科学研究的高校研究生/博后/导师  
+> 观众定位：本领域的一线科研工作者  
+> 视频时长: 5分钟~15分钟  
+> 视频定位：高质量的学术知识分享 & 前沿方向展望 & 泛学术场景讨论  
+> 视频内容：遥感领域顶会顶刊论文导读，核心目标刊物[IEEE Transaction on Geoscience and Remote Sensing(TGRS)](https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=36),辅助材料CVPR、ICCV、ECCV和ISPRS等
+
+> [!NOTE] <a href="https://www.ccf.org.cn/Academic_Evaluation/By_category/">中国计算机学会推荐国际学术会议和期刊目录（2022）</a>
+
+CCF-A: CVPR & ICCV  
+CCF-B: ECCV & TGRS  
+
+> [!NOTE] 地球科学方向高质量刊物
+
+- ISPRS Journal of Photogrammetry and Remote Sensing
+- Remote Sensing
+- GeoInformatica
+- International Journal of Digital Earth
+
+#### 一、遥感顶刊论文导读
+
+<div align="center">
+<img src="./Assets/TGRS_Course_demo1.png" alt="TGRS_Course_demo1">
+<img src="./Assets/TGRS_Course_demo2.png" alt="TGRS_Course_demo2">
+</div>
+<div align="center">
+导读Demo
+</div>
 
 ### D. 大语言模型入门导读和简易实践
+
+> [!TIP]
+
+> 面向群体：对大语言模型理论和实践感兴趣的学生/社会人士    
+> 视频时长: ~   
+> 视频内容：经典入门论文导读 | 简易实践项目 | 简易工程开发 | LLM顶会论文前沿导读  
+
+<div align="center">
+<img src="./Assets/llm_course_demo1.gif" alt="llm_course_demo1">
+<img src="./Assets/llm_course_demo2.gif" alt="llm_course_demo2">
+<img src="./Assets/llm_course_demo3.png" alt="llm_course_demo3">
+</div>
+<div align="center">
+Demo
+</div>
