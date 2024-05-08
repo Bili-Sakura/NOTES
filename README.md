@@ -79,7 +79,7 @@ Profile of Sakura
 
 #### 五、（泛）科研杂谈
 
-![Learning_Curve](./Assets/Learning_Curve.png)
+![Learning_Curve](./assets/Learning_Curve.png)
 
 [什么是大数据/什么是第四科学研究范式？]()
 
@@ -98,7 +98,7 @@ Profile of Sakura
 
 > [!CAUTION]存在<u>较多</u>同类产品竞争
 
-![](./Assets/QGIS_Bibili.png)
+![QGIS](./assets/QGIS_Bibili.png)
 
 #### 二、交互式地图制作教学
 
