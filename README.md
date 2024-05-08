@@ -152,6 +152,3 @@ CCF-B: ECCV & TGRS
 <div align="center">
 Demo
 </div>
-
-[【序】]
-> 论文架构
