@@ -1,5 +1,2 @@
-*.mp4
-*.mp3
-*Videos
+
 *PR_PROJECT
-!./Bilibili_Course/LLM/PR_PROJECT/Export/lesson_0_refined.mp4
