@@ -1,2 +1,4 @@
-
+.venv
+.env
+*Speech_to_Text
 *PR_PROJECT
