@@ -1,4 +1,5 @@
 .venv
 .env
+*.mp4
 *Speech_to_Text
 *PR_PROJECT
