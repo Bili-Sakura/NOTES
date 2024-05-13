@@ -37,7 +37,7 @@ Profile of Sakura
 
 [三、Zotero文献管理和协作技巧]()
 
-[四、Zotero + GitHub全栈科研工作流构建]()
+<!-- [四、Zotero + GitHub全栈科研工作流构建]() -->
 
 #### 二、【必学】使用Vscode/Cursor进行科研笔记管理
 
