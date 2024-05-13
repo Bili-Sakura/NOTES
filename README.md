@@ -29,15 +29,15 @@ Profile of Sakura
 
 ![Zotero_Overview](./assets/zotero_overview.gif)
 
-[【序】Zotero介绍](./Bilibili_Course/ResearchTools/COURSE_NOTES/Markdown/%23【序】Zotero介绍)
+[【序】Zotero介绍](./Bilibili_Course/ResearchTools/COURSE_NOTES/Markdown/%23【序】Zotero介绍.md)
 
-[一、Zotero的安装和环境配置](./Bilibili_Course/ResearchTools/COURSE_NOTES/Markdown/%23%23【一】Zotero的安装和环境配置)
+[一、Zotero的安装和环境配置](./Bilibili_Course/ResearchTools/COURSE_NOTES/Markdown/%23%23【一】Zotero的安装和环境配置.md)
 
-[二、Zotero推荐插件](./Bilibili_Course/ResearchTools/COURSE_NOTES/Markdown/%23%23%23【二】Zotero推荐插件)
+[二、Zotero推荐插件](./Bilibili_Course/ResearchTools/COURSE_NOTES/Markdown/%23%23%23【二】Zotero推荐插件.md)
 
-[三、Zotero文献管理和协作技巧](./Bilibili_Course/ResearchTools/COURSE_NOTES/Markdown/%23%23%23%23【三】Zotero文献管理和协作技巧)
+[三、Zotero文献管理和协作技巧](./Bilibili_Course/ResearchTools/COURSE_NOTES/Markdown/%23%23%23%23【三】Zotero文献管理和协作技巧.md)
 
-[四、Zotero注记技巧](./Bilibili_Course/ResearchTools/COURSE_NOTES/Markdown/%23%23%23%23%23【四】Zotero注记技巧)
+[四、Zotero注记技巧](./Bilibili_Course/ResearchTools/COURSE_NOTES/Markdown/%23%23%23%23%23【四】Zotero注记技巧.md)
 
 #### 二、【必学】使用Vscode/Cursor进行科研笔记管理
 
