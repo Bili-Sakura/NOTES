@@ -14,6 +14,61 @@
 粉色：动词组分
 绿色：状语和修饰语组分
 橙色：专有名词
+紫色：扩展阅读链接
 视频内容/字幕勘误：  
-
+无
 ```
+
+## Further Reading
+
+### Scaling Law
+
+“KM scaling law.” (Kaplan et al., 2020, page 4)
+
+![](./../assets/Lesson_2/KM_Scaling_Law.png)
+
+“Chinchilla scaling law” (Hoffmann et al., 2022, page 8)
+
+![](./../assets/Lesson_2/Chinchilla_Scaling_Law_parameter.png)
+
+> Kaplan, J., McCandlish, S., Henighan, T., Brown, T. B., Chess, B., Child, R., Gray, S., Radford, A., Wu, J., & Amodei, D. (2020). Scaling Laws for Neural Language Models. *ArXiv*. https://www.semanticscholar.org/paper/Scaling-Laws-for-Neural-Language-Models-Kaplan-McCandlish/e6c561d02500b2596a230b341a8eb8b921ca5bf2
+>
+> Hoffmann, J., Borgeaud, S., Mensch, A., Buchatskaya, E., Cai, T., Rutherford, E., Casas, D. de L., Hendricks, L. A., Welbl, J., Clark, A., Hennigan, T., Noland, E., Millican, K., Driessche, G. van den, Damoc, B., Guy, A., Osindero, S., Simonyan, K., Elsen, E., … Sifre, L. (2022). *Training Compute-Optimal Large Language Models* (arXiv:2203.15556). arXiv. https://doi.org/10.48550/arXiv.2203.15556
+
+### Scaling Law in GPT-4
+
+“GPT-4 (OpenAI et al., 2024, page 2) has reported that some capabilities (e.g., coding ability) can be accurately predicted via scaling law.” 
+
+![](./../assets/Lesson_2/GPT-4_Predication1.png)
+
+![](./../assets/Lesson_2/GPT-4_Predication2.png)
+
+
+
+> OpenAI, Achiam, J., Adler, S., Agarwal, S., Ahmad, L., Akkaya, I., Aleman, F. L., Almeida, D., Altenschmidt, J., Altman, S., Anadkat, S., Avila, R., Babuschkin, I., Balaji, S., Balcom, V., Baltescu, P., Bao, H., Bavarian, M., Belgum, J., … Zoph, B. (2024). *GPT-4 Technical Report* (arXiv:2303.08774). arXiv. https://doi.org/10.48550/arXiv.2303.08774
+
+### RLHF in InstructGPT
+
+“reinforcement learning with human feedback” (Ouyang et al., 2022, page 3)
+
+![](./../assets/Lesson_2/RLHF.png)
+
+> Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C. L., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., Ray, A., Schulman, J., Hilton, J., Kelton, F., Miller, L., Simens, M., Askell, A., Welinder, P., Christiano, P., Leike, J., & Lowe, R. (2022). *Training language models to follow instructions with human feedback* (arXiv:2203.02155). arXiv. https://doi.org/10.48550/arXiv.2203.02155
+
+### Interview with OpenAI (former)Chief Scientist
+
+[“What the neural network learns is some representation of the process that produced the text. This text is actually a projection of the world...the more accurate you are in predicting the next word, the higher the fidelity, the more resolution you get in this process...”](https://lifearchitect.ai/ilya/)[ ](https://lifearchitect.ai/ilya/)<sup>1</sup>
+
+> 1. https://lifearchitect.ai/ilya/
+
+### "Language models are few-shot learners" from GPT-3
+
+![](./../assets/Lesson_2/GPT-3_Figure.png)
+
+> Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G., Askell, A., Agarwal, S., Herbert-Voss, A., Krueger, G., Henighan, T., Child, R., Ramesh, A., Ziegler, D. M., Wu, J., Winter, C., … Amodei, D. (2020). Language Models are Few-Shot Learners. *ArXiv*. https://www.semanticscholar.org/paper/Language-Models-are-Few-Shot-Learners-Brown-Mann/90abbc2cf38462b954ae1b772fac9532e2ccd8b0
+
+### OpenAI API & Model & Pricing 
+
+> https://openai.com/api/pricing/
+>
+> https://platform.openai.com/docs/models/
