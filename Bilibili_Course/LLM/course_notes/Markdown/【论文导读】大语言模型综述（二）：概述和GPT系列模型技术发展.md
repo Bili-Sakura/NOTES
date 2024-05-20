@@ -86,7 +86,10 @@ Hendrycks, D., Burns, C., Basart, S., Zou, A., Mazeika, M., Song, D., & Steinhar
 
 [“What the neural network learns is some representation of the process that produced the text. This text is actually a projection of the world...the more accurate you are in predicting the next word, the higher the fidelity, the more resolution you get in this process...”](https://lifearchitect.ai/ilya/)[ ](https://lifearchitect.ai/ilya/)<sup>1</sup>
 
+![](./../assets/Lesson_2/interview.png)
+
 > 1. https://lifearchitect.ai/ilya/
+> 1. [Fireside Chat with Ilya Sutskever and Jensen Huang: AI Today and Vision of the Future | NVIDIA On-Demand](https://www.nvidia.com/en-us/on-demand/session/gtcspring23-s52092/)
 
 ### "Language models are few-shot learners" from GPT-3
 
