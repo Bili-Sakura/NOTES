@@ -141,9 +141,30 @@ Correctified Model Size of GPT-2 Variants (Andrej Karpathy, 2024)
 
 <div align="center"><img src="../assets/Lesson_2/LLMs_Timeline.png" alt=""><p>A Timeline of Existing Large Language Models (>10B) (Zhao et al., 2023).</p></div>
 
+In-context learning (ICL) → Few-shot
+
+<div align="center"><img src="../assets/Lesson_2/ICL_and_Traditional_FT.png" alt=""><p>In-context Learning compared with Traditional Fine-Tuning (Brown et al., 2020).</p></div>
+
+<div align="center"><img src="../assets/Lesson_2/ICL_with_Model_Size.png" alt=""><p>Larger models make increasingly efficient use of in-context information (Brown et al., 2020).</p></div>
+
+<div align="center"><img src="../assets/Lesson_2/GPT-3_Variants.png" alt=""><p>GPT-3 Variants Configuration (all of them are trained on 300B tokens) (Brown et al., 2020).</p></div>
+
 ### Codex (2021) : Evaluating Large Language Models Trained on Code
 
+<div align="center"><img src="../assets/Lesson_2/Codex_Pass_Rate.png" alt=""><p>Pass Rates of our Models on the HumanEval Dataset as a Function of Model Size (Chen et al., 2021).</p></div>
+
+<div align="center"><img src="../assets/Lesson_2/HumanEval.png" alt=""><p>Three Example Problems from the HumanEval Dataset (Chen et al., 2021).</p></div>
+
 ### InstructGPT (March 2022) : Training Language Models to Follow Instructions with Human Feedback
+
+<div align="center"><img src="../assets/Lesson_2/RLHF.png" alt=""><p>A diagram illustrating the three steps of our method: (1) supervised fine-tuning (SFT), (2) reward model (RM) training, and (3) reinforcement learning via proximal policy optimization (PPO) on this reward model. Blue arrows indicate that this data is used to train one of our models. In Step 2, boxes A-D are samples from our models that get ranked by labelers (Ouyang et al., 2022).</p></div>
+
+<div align="center"><img src="../assets/Lesson_2/InstructGPT_Results.png" alt=""><p>InstructGPT(PPO) versus GPT-3 (Ouyang et al., 2022).</p></div>
+
+<div align="center"><img src="../assets/Lesson_2/InstructGPT_demo1.png" alt=""><p>Code Problem (Ouyang et al., 2022).</p></div>
+<div align="center"><img src="../assets/Lesson_2/Snapshots_of_Labeler_Interface.png" alt=""><p>Screenshots of Our Labeling Interface (Ouyang et al., 2022).</p></div>
+
+(a) For each output, labelers give a Likert score for overall quality on a 1-7 scale, and also provide various metadata labels. (b) After evaluating each output individually, labelers rank all the outputs for a given prompt. Ties are encouraged in cases where two outputs seem to be of similar quality.
 
 ## The Milestones of Language Models
 
