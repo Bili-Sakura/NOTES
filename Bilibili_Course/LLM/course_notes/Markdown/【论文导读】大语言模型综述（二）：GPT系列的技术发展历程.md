@@ -170,23 +170,77 @@ In-context learning (ICL) → Few-shot
 
 ### ChatGPT (November 2022)
 
+“a sibling model to InstructGPT” (OpenAI, 2022)
+
+<div align="center"><img src="../assets/Lesson_2/ChatGPT_WEBUI.png" alt=""><p>ChatGPT Web UI (early).</p></div>
+
+ChatGPT exhibited superior capacities in communicating with humans: possessing a vast store of knowledge, skill at reasoning on mathematical problems, tracing the context accurately in multi-turn dialogues, and aligning well with human values for safe use (Zhao et al., 2023).
+
+<div align="center"><img src="../assets/Lesson_2/ChatGPT_demo1.png" alt=""><p>A sample compares ChatGPT with InstructGPT and demonstrate safety mitigations for ChatGPT (OpenAI, 2022).</p></div>
+
+> OpenAI. (2022, November 30). *Introducing ChatGPT*. <https://openai.com/index/chatgpt/>
+
 ### GPT-4V & GPT-4-Turbo (2023)
+
+Input
+
+What can I make with these ingredients?
+
+<div align="center"><img src="../assets/Lesson_2/ingredients.png" alt=""><p>Visual Input Demo.</p></div>
+
+Output
+
+There are many options for what you can make with these ingredients! Some possibilities include:
+
+- Pancakes or waffles
+- Crepes
+- French toast
+- Omelette or frittata
+- Quiche
+- Custard or pudding
+- Cake or cupcakes
+- Muffins or bread
+- Cookies or biscuits
+
+These are just a few examples, but the possibilities are endless!
+
+<div align="center"><img src="../assets/Lesson_2/GPT-4_System_Card.png" alt=""><p>A Detailed System Card on Safety and Alignment of GPT-4 (OpenAI, 2023).</p></div>
 
 ## Future
 
 ### GPT-4o (May 2024)
 
+GPT-4o (“o” for “omni”) is a step towards much more natural human-computer interaction—it accepts as input any combination of text, audio, image, and video and generates any combination of text, audio, and image outputs. It can respond to audio inputs in as little as 232 milliseconds, with an average of 320 milliseconds, which is similar to human response time in a conversation. It matches GPT-4 Turbo performance on text in English and code, with significant improvement on text in non-English languages, while also being much faster and 50% cheaper in the API. GPT-4o is especially better at vision and audio understanding compared to existing models (OpenAI, May 13 2024).
+
+<div align="center"><img src="../assets/Lesson_2/GPT-4o_Announcement.png" alt=""><p>OpenAi Chief Technology Officer Mira Murati introduced the company's product upgrades on stage and in a live-stream presentation on Monday (OpenAI, May 13 2024).</p></div>
+
+> OpenAI. (2024, May 13). *Hello GPT-4o*. <https://openai.com/index/hello-gpt-4o/>
+
 ### AGI/Superintelligence (before 2030)
 
+You can see the future first in San Francisco.
+
+Over the past year, the talk of the town has shifted from \$10 billion compute clusters to \$100 billion clusters to trillion-dollar clusters. Every six months another zero is added to the boardroom plans. Behind the scenes, there’s a fierce scramble to secure every power contract still available for the rest of the decade, every voltage transformer that can possibly be procured. American big business is gearing up to pour trillions of dollars into a long-unseen mobilization of American industrial might. By the end of the decade, American electricity production will have grown tens of percent; from the shale fields of Pennsylvania to the solar farms of Nevada, hundreds of millions of GPUs will hum.
+
+The AGI race has begun. We are building machines that can think and reason. By 2025/26, these machines will outpace college graduates. By the end of the decade, they will be smarter than you or I; we will have superintelligence, in the true sense of the word. Along the way, national security forces not seen in half a century will be unleashed, and before long, The Project will be on. If we’re lucky, we’ll be in an all-out race with the CCP; if we’re unlucky, an all-out war.
+
+Everyone is now talking about AI, but few have the faintest glimmer of what is about to hit them. Nvidia analysts still think 2024 might be close to the peak. Mainstream pundits are stuck on the willful blindness of “it’s just predicting the next word”. They see only hype and business-as-usual; at most they entertain another internet-scale technological change.
+
+Before long, the world will wake up. But right now, there are perhaps a few hundred people, most of them in San Francisco and the AI labs, that have situational awareness. Through whatever peculiar forces of fate, I have found myself amongst them. A few years ago, these people were derided as crazy—but they trusted the trendlines, which allowed them to correctly predict the AI advances of the past few years. Whether these people are also right about the next few years remains to be seen. But these are very smart people—the smartest people I have ever met—and they are the ones building this technology. Perhaps they will be an odd footnote in history, or perhaps they will go down in history like Szilard and Oppenheimer and Teller. If they are seeing the future even close to correctly, we are in for a wild ride.
+
+Let me tell you what we see.
+
+<div align="center"><img src="../assets/Lesson_2/superalignment_Problem.png" alt=""><p>Aligning AI systems via human supervision (as in RLHF) won’t scale to superintelligence (Aschenbrenner, 2024).</p></div>
+
 ## References
+
+Aschenbrenner, L. (2024). *Situational Awareness*.
 
 Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G., Askell, A., Agarwal, S., Herbert-Voss, A., Krueger, G., Henighan, T., Child, R., Ramesh, A., Ziegler, D. M., Wu, J., Winter, C., … Amodei, D. (2020, May 28). Language Models are Few-Shot Learners. *Neural Information Processing Systems*. <https://www.semanticscholar.org/paper/Language-Models-are-Few-Shot-Learners-Brown-Mann/90abbc2cf38462b954ae1b772fac9532e2ccd8b0>
 
 Chen, M., Tworek, J., Jun, H., Yuan, Q., Pinto, H. P. de O., Kaplan, J., Edwards, H., Burda, Y., Joseph, N., Brockman, G., Ray, A., Puri, R., Krueger, G., Petrov, M., Khlaaf, H., Sastry, G., Mishkin, P., Chan, B., Gray, S., … Zaremba, W. (2021). *Evaluating Large Language Models Trained on Code* (arXiv:2107.03374). arXiv. <http://arxiv.org/abs/2107.03374>
 
-OpenAI. (2023). *GPT-4V(ision) System Card*. <https://www.semanticscholar.org/paper/GPT-4V(ision)-System-Card/7a29f47f6509011fe5b19462abf6607867b68373>
-
-OpenAI, Achiam, J., Adler, S., Agarwal, S., Ahmad, L., Akkaya, I., Aleman, F. L., Almeida, D., Altenschmidt, J., Altman, S., Anadkat, S., Avila, R., Babuschkin, I., Balaji, S., Balcom, V., Baltescu, P., Bao, H., Bavarian, M., Belgum, J., … Zoph, B. (2024). *GPT-4 Technical Report* (arXiv:2303.08774). arXiv. <https://doi.org/10.48550/arXiv.2303.08774>
+OpenAI. (2023). *GPT-4 Technical Report* (arXiv:2303.08774). arXiv. <https://doi.org/10.48550/arXiv.2303.08774>
 
 Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C. L., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., Ray, A., Schulman, J., Hilton, J., Kelton, F., Miller, L., Simens, M., Askell, A., Welinder, P., Christiano, P., Leike, J., & Lowe, R. (2022). *Training language models to follow instructions with human feedback* (arXiv:2203.02155). arXiv. <https://doi.org/10.48550/arXiv.2203.02155>
 
