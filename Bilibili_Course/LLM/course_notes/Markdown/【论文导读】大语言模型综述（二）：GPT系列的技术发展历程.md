@@ -1,11 +1,35 @@
 # 【论文导读】大语言模型综述（二）：GPT系列的技术发展历程
 
-<img src="../../../../assets/sakura_logo.png" alt="Sa神带你学AI" width="50%">
+<div align="center"><img src="../../../../assets/sakura.png" alt="Sakura" width="100%">Profile of Sakura</div>
 
 ```markdown
 **视频简介** 
 本系列为《A Survey of Large Language Model》的论文导读系列视频，本视频导读内容为论文的第二章的后半部分，即第二章Overview下的2.2 Technical Evolution of GPT-series Models。
-本次介绍内容主要介绍了OpenAI基于GPT系列模型开发的技术探索历程和重要实践经验。
+此视频主要介绍了OpenAI基于GPT系列模型开发的技术探索历程和重要实践经验。
+参考文献：
+Aschenbrenner, L. (2024). Situational Awareness. [Blog Link](https://situational-awareness.ai/)
+
+Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G., Askell, A., Agarwal, S., Herbert-Voss, A., Krueger, G., Henighan, T., Child, R., Ramesh, A., Ziegler, D. M., Wu, J., Winter, C., … Amodei, D. (2020). Language Models are Few-Shot Learners. Neural Information Processing Systems.
+
+Chen, M., Tworek, J., Jun, H., Yuan, Q., Pinto, H. P. de O., Kaplan, J., Edwards, H., Burda, Y., Joseph, N., Brockman, G., Ray, A., Puri, R., Krueger, G., Petrov, M., Khlaaf, H., Sastry, G., Mishkin, P., Chan, B., Gray, S., … Zaremba, W. (2021). Evaluating Large Language Models Trained on Code
+
+Cottier, B. (2022). The replication and emulation of GPT-3. Rethink Priorities. [Blog Link](https://rethinkpriorities.org/publications/the-replication-and-emulation-of-gpt-3)
+
+OpenAI. (2015). Introducing OpenAI. [Blog Link](https://openai.com/index/introducing-openai/)
+
+OpenAI. (2023). GPT-4 Technical Report
+
+Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C. L., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., Ray, A., Schulman, J., Hilton, J., Kelton, F., Miller, L., Simens, M., Askell, A., Welinder, P., Christiano, P., Leike, J., & Lowe, R. (2022). Training language models to follow instructions with human feedback
+
+Radford, A., Narasimhan, K., Salimans, T., & Sutskever, I. (2018). Improving Language Understanding by Generative Pre-Training.
+
+Radford, A., Jozefowicz, R., & Sutskever, I. (2017). Learning to Generate Reviews and Discovering Sentiment
+
+Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., & Sutskever, I. (2019). Language Models are Unsupervised Multitask Learners.
+
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł. ukasz, & Polosukhin, I. (2017). Attention is All you Need. Advances in Neural Information Processing Systems
+
+Zhao, W. X., Zhou, K., Li, J., Tang, T., Wang, X., Hou, Y., Min, Y., Zhang, B., Zhang, J., Dong, Z., Du, Y., Yang, C., Chen, Y., Chen, Z., Jiang, J., Ren, R., Li, Y., Tang, X., Liu, Z., … Wen, J.-R. (2023). A Survey of Large Language Models
 ```
 
 ## Outline
@@ -32,8 +56,10 @@
 
 ### Introduction to OpenAI  <img src="../assets/Lesson_2/OpenAI_Logo.svg" alt="" width="20%">
 
-<div align="center"><img src="../assets/Lesson_2/Pioneer_Building,_San_Francisco_(2019).jpg" alt=""><p>Figure: Former headquarters at the Pioneer Building in San Francisco.
-</p></div>
+<div align="center"><img src="../assets/Lesson_2/Pioneer_Building,_San_Francisco_(2019).jpg" alt=""><p>Former headquarters at the Pioneer Building in San Francisco.</p><img src="../assets/Lesson_2/org-structure.png" alt=""><p>OpenAI Organization structure.</p></div>
+
+> <https://openai.com/our-structure/>
+
 According to OpenAI (2015), “OpenAI is a non-profit artificial intelligence research company. Our goal is to advance digital intelligence in the way that is most likely to benefit humanity as a whole, unconstrained by a need to generate financial return. Since our research is free from financial obligations, we can better focus on a positive human impact.
 
 We believe AI should be an extension of individual human wills and, in the spirit of liberty, as broadly and evenly distributed as possible. The outcome of this venture is uncertain and the work is difficult, but we believe the goal and the structure are right. We hope this is what matters most to the best in the field".
@@ -51,7 +77,7 @@ We believe AI should be an extension of individual human wills and, in the spiri
 
 ### Evolution of GPT-series Models
 
-<div align="center"><img src="../assets/Lesson_2/Evolution_of_GPT.png" alt=""><p>Figure: A brief illustration for the technical evolution of GPT-series models (Zhao et al., 2023).</p></div>
+<div align="center"><img src="../assets/Lesson_2/Evolution_of_GPT.png" alt=""><p>A brief illustration for the technical evolution of GPT-series models (Zhao et al., 2023).</p></div>
 
 Overall, the research of OpenAI on LLMs can be roughly divided into the following stages.
 
@@ -71,11 +97,11 @@ Overall, the research of OpenAI on LLMs can be roughly divided into the followin
 
 ### Before GPT (2016-2018)
 
-<div align="center"><img src="../assets/Lesson_2/Thesis_Ilya.png" alt=""><p>Figure: A Snapshot of Ilya Sutskever PhD Thesis.</p></div>
+<div align="center"><img src="../assets/Lesson_2/Thesis_Ilya.png" alt=""><p>A Snapshot of Ilya Sutskever PhD Thesis.</p></div>
 
 The idea of approaching intelligent systems with language models was already explored in the early days of OpenAI, while it was attempted with recurrent neural networks (RNN) (Radford et al., 2017).
 
-<div align="center"><img src="../assets/Lesson_2/Transformer_Title.png" alt=""><img src="../assets/Lesson_2/Transformer.png" alt=""><p>Figure: The Transformer – model architecture (Vaswani et al., 2017).</p></div>
+<div align="center"><img src="../assets/Lesson_2/Transformer_Title.png" alt=""><img src="../assets/Lesson_2/Transformer.png" alt=""><p>The Transformer – model architecture (Vaswani et al., 2017).</p></div>
 
 With the advent of Transformer, OpenAI developed two initial GPT models, namely GPT-1 and GPT-2, which can be considered as the foundation to more powerful models subsequently i.e., GPT-3 and GPT-4.
 
@@ -148,6 +174,22 @@ In-context learning (ICL) → Few-shot
 <div align="center"><img src="../assets/Lesson_2/ICL_with_Model_Size.png" alt=""><p>Larger models make increasingly efficient use of in-context information (Brown et al., 2020).</p></div>
 
 <div align="center"><img src="../assets/Lesson_2/GPT-3_Variants.png" alt=""><p>GPT-3 Variants Configuration (all of them are trained on 300B tokens) (Brown et al., 2020).</p></div>
+
+<div align="center"><img src="../assets/Lesson_2/Training_GPT-3_Compute.png" alt=""><p>Total compute used during training (Brown et al., 2020).</p></div>
+
+| **Estimated  quantity**                                      | **GPT-3  (May 2020)**                                        |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Actual compute cost of the final  training run               | \$12M (90% CI: \$5M–\$33M) ([reasoning](https://docs.google.com/document/d/1vwntvkBBhbAWhYGTkqP2LNH4OwXhaI-PJPPS1PiHvtM/edit)) |
+| Actual total compute cost (inc. trial and error, preliminary  experiments) | \$49M (90% CI: \$15M–\$130M) ([calculation](https://www.getguesstimate.com/models/20972)) |
+| Core team size                                               | 25 people                                                    |
+| Project duration                                             | 92 days                                                      |
+
+<div align="center"><p>Estimated resources required for training GPT-3 (Cottier, 2022).</p></div>
+
+<div align="center"><img src="../assets/Lesson_2/Scaling_Law_figure1.png" alt=""><p>Power-law relationship between model performance with compute, dataset size and parameters (Kaplan et al., 2020) .</p></div>
+
+<div align="center"><img src="../assets/Lesson_2/Scaling_in_GPT-3.png" alt=""><p>Smooth scaling of performance with compute (Brown et al., 2020).
+</p></div>
 
 ### Codex (2021) : Evaluating Large Language Models Trained on Code
 
@@ -234,22 +276,26 @@ Let me tell you what we see.
 
 ## References
 
-Aschenbrenner, L. (2024). *Situational Awareness*.
+Aschenbrenner, L. (2024). Situational Awareness. [Blog Link](https://situational-awareness.ai/)
 
-Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G., Askell, A., Agarwal, S., Herbert-Voss, A., Krueger, G., Henighan, T., Child, R., Ramesh, A., Ziegler, D. M., Wu, J., Winter, C., … Amodei, D. (2020, May 28). Language Models are Few-Shot Learners. *Neural Information Processing Systems*. <https://www.semanticscholar.org/paper/Language-Models-are-Few-Shot-Learners-Brown-Mann/90abbc2cf38462b954ae1b772fac9532e2ccd8b0>
+Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G., Askell, A., Agarwal, S., Herbert-Voss, A., Krueger, G., Henighan, T., Child, R., Ramesh, A., Ziegler, D. M., Wu, J., Winter, C., … Amodei, D. (2020). Language Models are Few-Shot Learners. Neural Information Processing Systems.
 
-Chen, M., Tworek, J., Jun, H., Yuan, Q., Pinto, H. P. de O., Kaplan, J., Edwards, H., Burda, Y., Joseph, N., Brockman, G., Ray, A., Puri, R., Krueger, G., Petrov, M., Khlaaf, H., Sastry, G., Mishkin, P., Chan, B., Gray, S., … Zaremba, W. (2021). *Evaluating Large Language Models Trained on Code* (arXiv:2107.03374). arXiv. <http://arxiv.org/abs/2107.03374>
+Chen, M., Tworek, J., Jun, H., Yuan, Q., Pinto, H. P. de O., Kaplan, J., Edwards, H., Burda, Y., Joseph, N., Brockman, G., Ray, A., Puri, R., Krueger, G., Petrov, M., Khlaaf, H., Sastry, G., Mishkin, P., Chan, B., Gray, S., … Zaremba, W. (2021). Evaluating Large Language Models Trained on Code
 
-OpenAI. (2023). *GPT-4 Technical Report* (arXiv:2303.08774). arXiv. <https://doi.org/10.48550/arXiv.2303.08774>
+Cottier, B. (2022). The replication and emulation of GPT-3. Rethink Priorities. [Blog Link](https://rethinkpriorities.org/publications/the-replication-and-emulation-of-gpt-3)
 
-Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C. L., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., Ray, A., Schulman, J., Hilton, J., Kelton, F., Miller, L., Simens, M., Askell, A., Welinder, P., Christiano, P., Leike, J., & Lowe, R. (2022). *Training language models to follow instructions with human feedback* (arXiv:2203.02155). arXiv. <https://doi.org/10.48550/arXiv.2203.02155>
+OpenAI. (2015). Introducing OpenAI. [Blog Link](https://openai.com/index/introducing-openai/)
 
-Radford, A., Narasimhan, K., Salimans, T., & Sutskever, I. (2018). *Improving Language Understanding by Generative Pre-Training*.
+OpenAI. (2023). GPT-4 Technical Report
 
-Radford, A., Jozefowicz, R., & Sutskever, I. (2017). *Learning to Generate Reviews and Discovering Sentiment* (arXiv:1704.01444). arXiv. <https://doi.org/10.48550/arXiv.1704.01444>
+Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C. L., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., Ray, A., Schulman, J., Hilton, J., Kelton, F., Miller, L., Simens, M., Askell, A., Welinder, P., Christiano, P., Leike, J., & Lowe, R. (2022). Training language models to follow instructions with human feedback
 
-Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., & Sutskever, I. (2019). *Language Models are Unsupervised Multitask Learners*.
+Radford, A., Narasimhan, K., Salimans, T., & Sutskever, I. (2018). Improving Language Understanding by Generative Pre-Training.
 
-Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł. ukasz, & Polosukhin, I. (2017). Attention is All you Need. *Advances in Neural Information Processing Systems*, *30*. <https://proceedings.neurips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html>
+Radford, A., Jozefowicz, R., & Sutskever, I. (2017). Learning to Generate Reviews and Discovering Sentiment
 
-Zhao, W. X., Zhou, K., Li, J., Tang, T., Wang, X., Hou, Y., Min, Y., Zhang, B., Zhang, J., Dong, Z., Du, Y., Yang, C., Chen, Y., Chen, Z., Jiang, J., Ren, R., Li, Y., Tang, X., Liu, Z., … Wen, J.-R. (2023). *A Survey of Large Language Models* (arXiv:2303.18223). arXiv. <https://doi.org/10.48550/arXiv.2303.18223>
+Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., & Sutskever, I. (2019). Language Models are Unsupervised Multitask Learners.
+
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł. ukasz, & Polosukhin, I. (2017). Attention is All you Need. Advances in Neural Information Processing Systems
+
+Zhao, W. X., Zhou, K., Li, J., Tang, T., Wang, X., Hou, Y., Min, Y., Zhang, B., Zhang, J., Dong, Z., Du, Y., Yang, C., Chen, Y., Chen, Z., Jiang, J., Ren, R., Li, Y., Tang, X., Liu, Z., … Wen, J.-R. (2023). A Survey of Large Language Models
