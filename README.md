@@ -18,15 +18,15 @@ Profile of Sakura
 
 ### Course
 
-[【序】五分钟了解大语言模型](./Bilibili_Course/LLM/course_notes/Markdown/【序】五分钟了解大语言模型)
+[【序】五分钟了解大语言模型](./Bilibili_Course/LLM/course_notes/Markdown/【序】五分钟了解大语言模型.md)
 
-[【论文导读】大语言模型综述（一）：介绍](./Bilibili_Course/LLM/course_notes/Markdown/【论文导读】大语言模型综述（一）：介绍)
+[【论文导读】大语言模型综述（一）：介绍](./Bilibili_Course/LLM/course_notes/Markdown/【论文导读】大语言模型综述（一）：介绍.md)
 
-[【论文导读】大语言模型综述（二）：概述](./Bilibili_Course/LLM/course_notes/Markdown/【论文导读】大语言模型综述（二）：概述)
+[【论文导读】大语言模型综述（二）：概述](./Bilibili_Course/LLM/course_notes/Markdown/【论文导读】大语言模型综述（二）：概述.md)
 
-[【论文导读】大语言模型综述（二）：GPT系列的技术发展历程](./Bilibili_Course/LLM/course_notes/Markdown/【论文导读】大语言模型综述（二）：GPT系列的技术发展历程)
+[【论文导读】大语言模型综述（二）：GPT系列的技术发展历程](./Bilibili_Course/LLM/course_notes/Markdown/【论文导读】大语言模型综述（二）：GPT系列的技术发展历程.md)
 
-[【论文导读】大语言模型综述（三）：主流大语言模型介绍](./Bilibili_Course/LLM/course_notes/Markdown/【论文导读】大语言模型综述（三）：主流大语言模型介绍)
+[【论文导读】大语言模型综述（三）：主流大语言模型介绍](./Bilibili_Course/LLM/course_notes/Markdown/【论文导读】大语言模型综述（三）：主流大语言模型介绍.md)
 
 ### Products
 
