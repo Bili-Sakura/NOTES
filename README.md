@@ -28,6 +28,8 @@ Profile of Sakura
 
 [【论文导读】大语言模型综述（三）：主流大语言模型介绍](./Bilibili_Course/LLM/course_notes/Markdown/【论文导读】大语言模型综述（三）：主流大语言模型介绍.md)
 
+[【论文导读】大语言模型综述（四）：预训练和微调](./Bilibili_Course/LLM/course_notes/Markdown/【论文导读】大语言模型综述（四）：预训练和微调.md)
+
 ### Products
 
 [AI for Geoscience: A Survey](./Products/【PaperWriting】AI_for_Geoscience_A_Survey.pdf)
