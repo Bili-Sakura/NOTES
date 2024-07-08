@@ -3,8 +3,8 @@
 > [!NOTE] Creator Information
 
 - **Author:** Sakura
-- **Date Created:** May 8, 2024
-- **Last Updated:** May 8, 2024
+- **Date Created:** June 23, 2024
+- **Last Updated:** June 23, 2024
 - **Version:** 1.0.0
 
 <div align="center">
@@ -13,6 +13,30 @@
 <div align="center">
 Profile of Sakura
 </div>
+
+## QUICK LINKS
+
+### Course
+
+[【序】五分钟了解大语言模型](./Bilibili_Course/LLM/course_notes/Markdown/【序】五分钟了解大语言模型.md)
+
+[【论文导读】大语言模型综述（一）：介绍](./Bilibili_Course/LLM/course_notes/Markdown/【论文导读】大语言模型综述（一）：介绍.md)
+
+[【论文导读】大语言模型综述（二）：概述](./Bilibili_Course/LLM/course_notes/Markdown/【论文导读】大语言模型综述（二）：概述.md)
+
+[【论文导读】大语言模型综述（二）：GPT系列的技术发展历程](./Bilibili_Course/LLM/course_notes/Markdown/【论文导读】大语言模型综述（二）：GPT系列的技术发展历程.md)
+
+[【论文导读】大语言模型综述（三）：主流大语言模型介绍](./Bilibili_Course/LLM/course_notes/Markdown/【论文导读】大语言模型综述（三）：主流大语言模型介绍.md)
+
+[【论文导读】大语言模型综述（四）：预训练和微调](./Bilibili_Course/LLM/course_notes/Markdown/【论文导读】大语言模型综述（四）：预训练和微调.md)
+
+### Products
+
+[AI for Geoscience: A Survey](./Products/【PaperWriting】AI_for_Geoscience_A_Survey.pdf)
+
+[AI Safety and the Path to AGI: Insights from OpenAI](./Products/【PaperWriting】AI_Safety_and_the_Path_to_AGI_Insights_from_OpenAI.pdf)
+
+[An Introduction to Novel Data Driven Weather Forecasting Models](./Products/【PaperWriting】An_Introduction_to_Novel_Data_Driven_Weather_Forecasting_Models.pdf)
 
 ## Course Outline (Conception Version)
 
@@ -29,15 +53,15 @@ Profile of Sakura
 
 ![Zotero_Overview](./assets/zotero_overview.gif)
 
-[【序】Zotero介绍]()
+[【序】Zotero介绍](./Bilibili_Course/ResearchTools/COURSE_NOTES/Markdown/%23【序】Zotero介绍.md)
 
-[一、Zotero的安装和环境配置]()
+[一、Zotero的安装和环境配置](./Bilibili_Course/ResearchTools/COURSE_NOTES/Markdown/%23%23【一】Zotero的安装和环境配置.md)
 
-[二、Zotero推荐插件]()
+[二、Zotero推荐插件](./Bilibili_Course/ResearchTools/COURSE_NOTES/Markdown/%23%23%23【二】Zotero推荐插件.md)
 
-[三、Zotero文献管理和协作技巧]()
+[三、Zotero文献管理和协作技巧](./Bilibili_Course/ResearchTools/COURSE_NOTES/Markdown/%23%23%23%23【三】Zotero文献管理和协作技巧.md)
 
-[四、Zotero + GitHub全栈科研工作流构建]()
+[四、Zotero注记技巧](./Bilibili_Course/ResearchTools/COURSE_NOTES/Markdown/%23%23%23%23%23【四】Zotero注记技巧.md)
 
 #### 二、【必学】使用Vscode/Cursor进行科研笔记管理
 
