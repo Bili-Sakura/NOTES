@@ -1,0 +1,773 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+
+<link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
+.mac-os-11 { --title-bar-height:28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+  .typora-export-show-outline .typora-export-sidebar { display: none; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+.md-expand mark .md-meta { opacity: 0.3 !important; }
+mark .md-meta { color: rgb(0, 0, 0); }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-fences.md-fences-math { font-size: 1em; }
+.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
+.md-fences-advanced:not(.md-focus) { background: inherit; }
+.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
+.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
+.typora-export-show-outline #write { --webkit-flex:2; flex: 2 1 0%; }
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
+@media screen and (max-width: 1024px) {
+  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
+}
+@media screen and (max-width: 800px) {
+  .typora-export-sidebar { display: none; }
+}
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; }
+.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
+.outline-content strong { font-weight: 400; }
+.outline-expander { width: 1rem; height: 1.42857rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
+.outline-expander:hover::before { content: ""; }
+.outline-h1 > .outline-item { padding-left: 0px; }
+.outline-h2 > .outline-item { padding-left: 1em; }
+.outline-h3 > .outline-item { padding-left: 2em; }
+.outline-h4 > .outline-item { padding-left: 3em; }
+.outline-h5 > .outline-item { padding-left: 4em; }
+.outline-h6 > .outline-item { padding-left: 5em; }
+.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
+.outline-label:hover { text-decoration: underline; }
+.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left: 28px solid transparent; border-right: 28px solid transparent; }
+.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.outline-children { display: none; }
+.info-panel-tab-wrapper { display: none; }
+.outline-item-open > .outline-children { display: block; }
+.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right: 8px solid transparent; }
+.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
+.typora-export-collapse-outline .outline-children { display: none; }
+.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
+.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
+.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
+.md-inline-math-container mjx-container { zoom: 0.95; }
+
+
+.CodeMirror { height: auto; }
+.CodeMirror.cm-s-inner { background: inherit; }
+.CodeMirror-scroll { overflow: auto hidden; z-index: 3; }
+.CodeMirror-gutter-filler, .CodeMirror-scrollbar-filler { background-color: rgb(255, 255, 255); }
+.CodeMirror-gutters { border-right: 1px solid rgb(221, 221, 221); background: inherit; white-space: nowrap; }
+.CodeMirror-linenumber { padding: 0px 3px 0px 5px; text-align: right; color: rgb(153, 153, 153); }
+.cm-s-inner .cm-keyword { color: rgb(119, 0, 136); }
+.cm-s-inner .cm-atom, .cm-s-inner.cm-atom { color: rgb(34, 17, 153); }
+.cm-s-inner .cm-number { color: rgb(17, 102, 68); }
+.cm-s-inner .cm-def { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-variable { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-variable-2 { color: rgb(0, 85, 170); }
+.cm-s-inner .cm-variable-3 { color: rgb(0, 136, 85); }
+.cm-s-inner .cm-string { color: rgb(170, 17, 17); }
+.cm-s-inner .cm-property { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-operator { color: rgb(152, 26, 26); }
+.cm-s-inner .cm-comment, .cm-s-inner.cm-comment { color: rgb(170, 85, 0); }
+.cm-s-inner .cm-string-2 { color: rgb(255, 85, 0); }
+.cm-s-inner .cm-meta { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-qualifier { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-builtin { color: rgb(51, 0, 170); }
+.cm-s-inner .cm-bracket { color: rgb(153, 153, 119); }
+.cm-s-inner .cm-tag { color: rgb(17, 119, 0); }
+.cm-s-inner .cm-attribute { color: rgb(0, 0, 204); }
+.cm-s-inner .cm-header, .cm-s-inner.cm-header { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-quote, .cm-s-inner.cm-quote { color: rgb(0, 153, 0); }
+.cm-s-inner .cm-hr, .cm-s-inner.cm-hr { color: rgb(153, 153, 153); }
+.cm-s-inner .cm-link, .cm-s-inner.cm-link { color: rgb(0, 0, 204); }
+.cm-negative { color: rgb(221, 68, 68); }
+.cm-positive { color: rgb(34, 153, 34); }
+.cm-header, .cm-strong { font-weight: 700; }
+.cm-del { text-decoration: line-through; }
+.cm-em { font-style: italic; }
+.cm-link { text-decoration: underline; }
+.cm-error { color: red; }
+.cm-invalidchar { color: red; }
+.cm-constant { color: rgb(38, 139, 210); }
+.cm-defined { color: rgb(181, 137, 0); }
+div.CodeMirror span.CodeMirror-matchingbracket { color: rgb(0, 255, 0); }
+div.CodeMirror span.CodeMirror-nonmatchingbracket { color: rgb(255, 34, 34); }
+.cm-s-inner .CodeMirror-activeline-background { background: inherit; }
+.CodeMirror { position: relative; overflow: hidden; }
+.CodeMirror-scroll { height: 100%; outline: 0px; position: relative; box-sizing: content-box; background: inherit; }
+.CodeMirror-sizer { position: relative; }
+.CodeMirror-gutter-filler, .CodeMirror-hscrollbar, .CodeMirror-scrollbar-filler, .CodeMirror-vscrollbar { position: absolute; z-index: 6; display: none; outline: 0px; }
+.CodeMirror-vscrollbar { right: 0px; top: 0px; overflow: hidden; }
+.CodeMirror-hscrollbar { bottom: 0px; left: 0px; overflow: auto hidden; }
+.CodeMirror-scrollbar-filler { right: 0px; bottom: 0px; }
+.CodeMirror-gutter-filler { left: 0px; bottom: 0px; }
+.CodeMirror-gutters { position: absolute; left: 0px; top: 0px; padding-bottom: 10px; z-index: 3; overflow-y: hidden; }
+.CodeMirror-gutter { white-space: normal; height: 100%; box-sizing: content-box; padding-bottom: 30px; margin-bottom: -32px; display: inline-block; }
+.CodeMirror-gutter-wrapper { position: absolute; z-index: 4; background: 0px 0px !important; border: none !important; }
+.CodeMirror-gutter-background { position: absolute; top: 0px; bottom: 0px; z-index: 4; }
+.CodeMirror-gutter-elt { position: absolute; cursor: default; z-index: 4; }
+.CodeMirror-lines { cursor: text; }
+.CodeMirror pre { border-radius: 0px; border-width: 0px; background: 0px 0px; font-family: inherit; font-size: inherit; margin: 0px; white-space: pre; overflow-wrap: normal; color: inherit; z-index: 2; position: relative; overflow: visible; }
+.CodeMirror-wrap pre { overflow-wrap: break-word; white-space: pre-wrap; word-break: normal; }
+.CodeMirror-code pre { border-right: 30px solid transparent; width: fit-content; }
+.CodeMirror-wrap .CodeMirror-code pre { border-right: none; width: auto; }
+.CodeMirror-linebackground { position: absolute; inset: 0px; z-index: 0; }
+.CodeMirror-linewidget { position: relative; z-index: 2; overflow: auto; }
+.CodeMirror-wrap .CodeMirror-scroll { overflow-x: hidden; }
+.CodeMirror-measure { position: absolute; width: 100%; height: 0px; overflow: hidden; visibility: hidden; }
+.CodeMirror-measure pre { position: static; }
+.CodeMirror div.CodeMirror-cursor { position: absolute; visibility: hidden; border-right: none; width: 0px; }
+.CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+.CodeMirror-focused div.CodeMirror-cursor { visibility: inherit; }
+.cm-searching { background: rgba(255, 255, 0, 0.4); }
+span.cm-underlined { text-decoration: underline; }
+span.cm-strikethrough { text-decoration: line-through; }
+.cm-tw-syntaxerror { color: rgb(255, 255, 255); background-color: rgb(153, 0, 0); }
+.cm-tw-deleted { text-decoration: line-through; }
+.cm-tw-header5 { font-weight: 700; }
+.cm-tw-listitem:first-child { padding-left: 10px; }
+.cm-tw-box { border-style: solid; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-color: inherit; border-top-width: 0px !important; }
+.cm-tw-underline { text-decoration: underline; }
+@media print {
+  .CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+}
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/* open-sans-regular - latin-ext_latin */
+  /* open-sans-italic - latin-ext_latin */
+    /* open-sans-700 - latin-ext_latin */
+    /* open-sans-700italic - latin-ext_latin */
+  html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+
+/*@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-top: -96px;
+        border-top: 1px solid #eee;
+    }
+}*/
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+/*.html-for-mac {
+    --item-hover-bg-color: #E6F0FE;
+}*/
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+    opacity: 0.4;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+.menu-item-container a.menu-style-btn {
+    background-color: #f5f8fa;
+    background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
+}
+
+
+
+</style><title>【论文导读】大语言模型综述（三）：主流大语言模型介绍</title>
+</head>
+<body class='typora-export os-windows'><div class='typora-export-content'>
+<div id='write'  class=''><h1 id='论文导读大语言模型综述三）主流大语言模型介绍'><span>【论文导读】大语言模型综述（三）：主流大语言模型介绍</span></h1><h2 id='info'><span>Info</span></h2><pre class="md-fences md-end-block md-fences-with-lineno ty-contain-cm modeLoaded" spellcheck="false" lang="markdown" style="break-inside: unset;"><div class="CodeMirror cm-s-inner cm-s-null-scroll CodeMirror-wrap" lang="markdown"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 9.38889px; left: 45.9809px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 38px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>30</div></div></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: -37.9948px; width: 38px;"></div><div class="CodeMirror-gutter-wrapper CodeMirror-activeline-gutter" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt CodeMirror-linenumber-show" style="left: 0px; width: 28px;">1</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-strong">**视频简介**</span> </span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">2</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">本系列为《A Survey of Large Language Model》的论文导读系列视频，本视频导读内容为论文的第三章，即Resources of LLMs部分。</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">3</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">讲演大纲：</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">4</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">- Common Misleadings</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">5</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-comment">- Model, Agent and Product</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">6</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-comment">- Who is best</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">7</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">- Publicly Available or Proprietary</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">8</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-comment">- LLaMA Series Model (Meta AI)</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">9</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-comment">- GPT Series Model (OpenAI)</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt CodeMirror-linenumber-show" style="left: 0px; width: 28px;">10</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">- Awesome Large Language Models</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">11</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-comment">- GLM Series (Zhipu AI &amp; Tsinghua University)</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">12</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-comment">- Mixtral Series (Mistral AI)</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">13</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-comment">- Gemeni Series (Google)</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">14</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-comment">- Claude Series (Anthropic)</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">15</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">论文引用:</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">16</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Bai, Y., Lv, X., Zhang, J., He, Y., Qi, J., Hou, L., Tang, J., Dong, Y., &amp; Li, J. (2024). LongAlign: A Recipe for Long Context Alignment of Large Language Models (arXiv:2401.18058). arXiv. https://doi.org/10.48550/arXiv.2401.18058</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">17</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Chen, M., Tworek, J., Jun, H., Yuan, Q., Pinto, H. P. de O., Kaplan, J., Edwards, H., Burda, Y., Joseph, N., Brockman, G., Ray, A., Puri, R., Krueger, G., Petrov, M., Khlaaf, H., Sastry, G., Mishkin, P., Chan, B., Gray, S., … Zaremba, W. (2021). Evaluating Large Language Models Trained on Code (arXiv:2107.03374). arXiv. http://arxiv.org/abs/2107.03374</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">18</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Chiang, W.-L., Zheng, L., Sheng, Y., Angelopoulos, A. N., Li, T., Li, D., Zhang, H., Zhu, B., Jordan, M., Gonzalez, J. E., &amp; Stoica, I. (2024). Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference (arXiv:2403.04132). arXiv. https://doi.org/10.48550/arXiv.2403.04132</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">19</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Du, Z., Qian, Y., Liu, X., Ding, M., Qiu, J., Yang, Z., &amp; Tang, J. (2022). GLM: General Language Model Pretraining with Autoregressive Blank Infilling (arXiv:2103.10360). arXiv. https://doi.org/10.48550/arXiv.2103.10360</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt CodeMirror-linenumber-show" style="left: 0px; width: 28px;">20</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">GLM Team. (2024). ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools (arXiv:2406.12793). arXiv. https://doi.org/10.48550/arXiv.2406.12793</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">21</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Hendrycks, D., Burns, C., Basart, S., Zou, A., Mazeika, M., Song, D., &amp; Steinhardt, J. (2021). Measuring Massive Multitask Language Understanding (arXiv:2009.03300). arXiv. https://doi.org/10.48550/arXiv.2009.03300</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">22</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Hendrycks, D., Burns, C., Kadavath, S., Arora, A., Basart, S., Tang, E., Song, D., &amp; Steinhardt, J. (2021). Measuring Mathematical Problem Solving With the MATH Dataset (arXiv:2103.03874). arXiv. https://doi.org/10.48550/arXiv.2103.03874</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">23</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Jiang, A. Q., Sablayrolles, A., Roux, A., Mensch, A., Savary, B., Bamford, C., Chaplot, D. S., Casas, D. de las, Hanna, E. B., Bressand, F., Lengyel, G., Bour, G., Lample, G., Lavaud, L. R., Saulnier, L., Lachaux, M.-A., Stock, P., Subramanian, S., Yang, S., … Sayed, W. E. (2024). Mixtral of Experts (arXiv:2401.04088). arXiv. http://arxiv.org/abs/2401.04088</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">24</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Liu, X., Lai, H., Yu, H., Xu, Y., Zeng, A., Du, Z., Zhang, P., Dong, Y., &amp; Tang, J. (2023). WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences (arXiv:2306.07906). arXiv. https://doi.org/10.48550/arXiv.2306.07906</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">25</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Rein, D., Hou, B. L., Stickland, A. C., Petty, J., Pang, R. Y., Dirani, J., Michael, J., &amp; Bowman, S. R. (2023). GPQA: A Graduate-Level Google-Proof Q&amp;A Benchmark (arXiv:2311.12022). arXiv. https://doi.org/10.48550/arXiv.2311.12022</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">26</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Rozière, B., Gehring, J., Gloeckle, F., Sootla, S., Gat, I., Tan, X. E., Adi, Y., Liu, J., Sauvestre, R., Remez, T., Rapin, J., Kozhevnikov, A., Evtimov, I., Bitton, J., Bhatt, M., Ferrer, C. C., Grattafiori, A., Xiong, W., Défossez, A., … Synnaeve, G. (2024). Code Llama: Open Foundation Models for Code (arXiv:2308.12950). arXiv. https://doi.org/10.48550/arXiv.2308.12950</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">27</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Touvron, H., Lavril, T., Izacard, G., Martinet, X., Lachaux, M.-A., Lacroix, T., Rozière, B., Goyal, N., Hambro, E., Azhar, F., Rodriguez, A., Joulin, A., Grave, E., &amp; Lample, G. (2023a). LLaMA: Open and Efficient Foundation Language Models (arXiv:2302.13971). arXiv. https://doi.org/10.48550/arXiv.2302.13971</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">28</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Touvron, H., Martin, L., Stone, K., Albert, P., Almahairi, A., Babaei, Y., Bashlykov, N., Batra, S., Bhargava, P., Bhosale, S., Bikel, D., Blecher, L., Ferrer, C. C., Chen, M., Cucurull, G., Esiobu, D., Fernandes, J., Fu, J., Fu, W., … Scialom, T. (2023b). Llama 2: Open Foundation and Fine-Tuned Chat Models (arXiv:2307.09288). arXiv. https://doi.org/10.48550/arXiv.2307.09288</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 28px;">29</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Xu, R., Wang, Z., Fan, R.-Z., &amp; Liu, P. (2024). Benchmarking Benchmark Leakage in Large Language Models (arXiv:2404.18824). arXiv. https://doi.org/10.48550/arXiv.2404.18824</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -37.9948px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt CodeMirror-linenumber-show" style="left: 0px; width: 28px;">30</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Zeng, A., Liu, X., Du, Z., Wang, Z., Lai, H., Ding, M., Yang, Z., Xu, Y., Zheng, W., Xia, X., Tam, W. L., Ma, Z., Xue, Y., Zhai, J., Chen, W., Zhang, P., Dong, Y., &amp; Tang, J. (2022). GLM-130B: An Open Bilingual Pre-trained Model (arXiv:2210.02414). arXiv. https://doi.org/10.48550/arXiv.2210.02414</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 2369px;"></div><div class="CodeMirror-gutters" style="height: 2369px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 37px;"></div></div></div></div></pre><h2 id='outline'><span>Outline</span></h2><ul><li><p><a href='#common-misunderstandings'><span>Common Misunderstandings</span></a></p><ul><li><span>Model, Agent and Product</span></li><li><span>Who is best</span></li></ul></li><li><p><a href='#publicly-available-or-proprietary'><span>Publicly Available or Proprietary</span></a></p></li><li><p><a href='#llama-series-model-(meta-ai)'><span>LLaMA Series Model (Meta AI)</span></a></p></li><li><p><a href='#gpt-series-model-(openaI)'><span>GPT Series Model (OpenAI)</span></a></p></li><li><p><a href='#awesome-large-language-models'><span>Awesome Large Language Models</span></a></p><ul><li><a href='#glm-series-(zhipu-ai-&amp;-tsinghua-university)'><span>GLM Series (Zhipu AI &amp; Tsinghua University)</span></a></li><li><a href='#mixstral-series-(mistral-ai)'><span>Mixtral Series (Mistral AI)</span></a></li><li><a href='#gemeni-series-(google)'><span>Gemeni Series (Google)</span></a></li><li><a href='#claude-series-(anthropic)'><span>Claude Series (Anthropic)</span></a></li></ul></li></ul><h2 id='common-misunderstandings'><span>Common Misunderstandings</span></h2><h3 id='model-agent-and-product'><span>Model, Agent and Product</span></h3><h4 id='model'><span>Model</span></h4><p><img src="../assets/Lesson_3/0_to_llm.png" referrerpolicy="no-referrer"></p><div align="center">Illustration of how we get LLaMA-2 70B.*</div><blockquote><p><a href='https://www.youtube.com/watch?v=zjkBMFhNj_g' target='_blank' class='url'>https://www.youtube.com/watch?v=zjkBMFhNj_g</a></p></blockquote><div align="center">
+  <div style="display: flex; justify-content: center; align-items: center;">
+    <img src="../assets/Lesson_3/llm_files.png" alt="Core files of LLaMA-2" width="35%">
+    <img src="../assets/Lesson_3/ollama_cli.gif" alt="Ollama runs a large language model with command line interface" width="70%">
+  </div>
+  <p>Left: Core files of LLaMA-2.* Right: Ollama runs a large language model with command line interface.*</p>
+</div><p>&nbsp;</p><blockquote><p><a href='https://www.youtube.com/watch?v=zjkBMFhNj_g' target='_blank' class='url'>https://www.youtube.com/watch?v=zjkBMFhNj_g</a></p><p><a href='https://www.jetson-ai-lab.com/tutorial_ollama.html' target='_blank' class='url'>https://www.jetson-ai-lab.com/tutorial_ollama.html</a></p></blockquote><h4 id='agent'><span>Agent</span></h4><div align="center">
+    <img src="../assets/Lesson_3/agent_chatgpt.gif">
+    <p>Agent based on gpt-4o.*</p>
+    <img src="../assets/Lesson_3/agent_vs_basemodel.png">
+    <p>Agent vs. base model.</p>
+</div><p>&nbsp;</p><p>&nbsp;</p><blockquote><p><a href='https://chatgpt.com/' target='_blank' class='url'>https://chatgpt.com/</a></p></blockquote><h4 id='product'><span>Product</span></h4><p><img src="../assets/Lesson_3/product_chatgpt.png" referrerpolicy="no-referrer" alt="image-20240621162410546"></p><blockquote><p><a href='https://chatgpt.com/' target='_blank' class='url'>https://chatgpt.com/</a></p></blockquote><p><img src="../assets/Lesson_3/product_chatglm.png" referrerpolicy="no-referrer" alt="image-20240621162540577"></p><blockquote><p><a href='https://chatglm.cn/' target='_blank' class='url'>https://chatglm.cn/</a></p></blockquote><h4 id='relationship'><span>Relationship</span></h4><p><img src="../assets/Lesson_3/relationship.png" referrerpolicy="no-referrer" alt="image-20240621165013639"></p><h3 id='who-is-best'><span>Who is best</span></h3><h4 id='evalution-llms-on-benchmarks'><span>Evalution LLMs on Benchmarks</span></h4><p><img src="../assets/Lesson_3/llms_on_benchmarks.png" referrerpolicy="no-referrer" alt="image-20240621191852167"></p><div align="center">
+    Model performance on conventional benchmarks, be it MMLU (<a href="http://arxiv.org/abs/2009.03300">Hendrycks et al., 2021</a>), GPQA (<a href="http://arxiv.org/abs/2311.12022">Rein et al., 2023</a>), MATH (<a href="http://arxiv.org/abs/2103.03874">Hendrycks et al., 2021</a>), HumanEval (<a href="http://arxiv.org/abs/2107.03374">Chen et al., 2021</a>) and so on. A) GPT-4o*. B) LLaMA-3 400B*. C) Claude-3.5 Sonnet*.
+</div><h4 id='data-contamination'><span>Data contamination</span></h4><p><img src="../assets/Lesson_3/data_contamination.png" referrerpolicy="no-referrer" alt="image-20240621193623234"></p><div align="center">
+    Left: Contamination Ranking. Right: An overview of detecting approach (<a href="http://arxiv.org/abs/2406.00482">Xu et al., 2024</a>).
+</div><h4 id='evaluating-llms-by-human-preference'><span>Evaluating LLMs by Human Preference</span></h4><p><img src="../assets/Lesson_3/chaybot_arena_demo1.gif" referrerpolicy="no-referrer" alt="chaybot_arena_demo1"></p><div align="center">Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference.*</div><blockquote><p><a href='https://chat.lmsys.org' target='_blank' class='url'>https://chat.lmsys.org</a></p></blockquote><p><img src="../assets/Lesson_3/arena_win_rate_matrix_plot.png" referrerpolicy="no-referrer" alt="arena_win_rate_matrix_plot"></p><p><img src="../assets/Lesson_3/leaderboard.png" referrerpolicy="no-referrer" alt="image-20240621203519960"></p><div align="center">
+Above:  Fraction of Model A wins for all non-tied A vs. B battles.
+Below: Chatbot arena rank leaderboard (<a href="http://arxiv.org/abs/2403.04132">Chiang et al., 2024</a>).*
+</div><p>&nbsp;</p><h2 id='publicly-available-or-proprietary'><span>Publicly Available or Proprietary</span></h2><h2 id='llama-series-model-meta-ai-'><span>LLaMA Series Model (</span><a href='https://ai.meta.com/'><span>Meta AI</span></a><span> </span><img src="../assets/Lesson_3/MetaAI.svg" width="40"><span>)</span></h2><h3 id='model-files-in-huggingface-ai-researcher-recommended'><span>Model Files in Huggingface (AI researcher recommended)</span></h3><p><img src="../assets/Lesson_3/model_files_hf.png" referrerpolicy="no-referrer" alt="image-20240622102220879"></p><div align="center">A) LLaMA-2 7B chat model file in Huggingface*. B) Use Transformers to run the model. C) Transparent model architectures and parameters.</div><blockquote><p><a href='https://huggingface.co/' target='_blank' class='url'>https://huggingface.co/</a></p></blockquote><h3 id='model-files-in-ollama-application-developer-recommended'><span>Model Files in Ollama (application developer recommended)</span></h3><p><img src="../assets/Lesson_3/model_files_ollama.png" referrerpolicy="no-referrer" alt="image-20240622102506978"></p><div align="center">A) LLaMA-3 8B chat model file in Ollama*. B) Run LLaMA locally using Ollama. C) Ollama application supports mac, linux and windows platforms. D) Storage directory.</div><blockquote><p><a href='https://ollama.com/' target='_blank' class='url'>https://ollama.com/</a></p></blockquote><h3 id='evolution-of-llama'><span>Evolution of LLaMA</span></h3><table>
+  <tbody><tr>
+    <th>Name</th>
+    <th>Release date</th>
+    <th>Parameters</th>
+    <th>Training cost (petaFLOP-day)</th>
+    <th>Context length</th>
+    <th>Corpus size</th>
+    <th>Commercial viability?</th>
+  </tr>
+  <tr>
+    <td rowspan="4">LLaMA (discard) (<a href="http://arxiv.org/abs/2302.13971">Touvron et al., 2023a</a>)</td>
+    <td rowspan="4">February 24, 2023</td>
+    <td>6.7B</td>
+    <td rowspan="4">6,300</td>
+    <td rowspan="4">2048</td>
+    <td rowspan="4">1–1.4T</td>
+    <td rowspan="4" style="background-color: #f8d7da;">No</td>
+  </tr>
+  <tr>
+    <td>13B</td>
+  </tr>
+  <tr>
+    <td>32.5B</td>
+  </tr>
+  <tr>
+    <td>65.2B</td>
+  </tr>
+  <tr>
+    <td rowspan="3">LLaMA 2 (<a href="http://arxiv.org/abs/2307.09288">Touvron et al., 2023b</a>)</td>
+    <td rowspan="3">July 18, 2023</td>
+    <td>6.7B</td>
+    <td rowspan="3">21,000</td>
+    <td rowspan="3">4096</td>
+    <td rowspan="3">2T</td>
+    <td rowspan="3" style="background-color: #d4edda;">Yes</td>
+  </tr>
+  <tr>
+    <td>13B</td>
+  </tr>
+  <tr>
+    <td>69B</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Code LLaMA (<a href="http://arxiv.org/abs/2308.12950">Rozière et al., 2024</a>)</td>
+    <td rowspan="4">August 24, 2023</td>
+    <td>6.7B</td>
+    <td rowspan="4"></td>
+    <td rowspan="4">4096</td>
+    <td rowspan="4">2T</td>
+    <td rowspan="4" style="background-color: #d4edda;">Yes</td>
+  </tr>
+  <tr>
+    <td>13B</td>
+  </tr>
+  <tr>
+    <td>33.7B</td>
+  </tr>
+  <tr>
+    <td>69B</td>
+  </tr>
+  <tr>
+    <td rowspan="4">LLaMA 3</td>
+    <td rowspan="4">April 18, 2024</td>
+    <td>8B</td>
+    <td rowspan="4">100,000</td>
+    <td rowspan="4">8192</td>
+    <td rowspan="4">15T</td>
+    <td rowspan="4" style="background-color: #d4edda;">Yes</td>
+  </tr>
+  <tr>
+    <td>70.6B</td>
+  </tr>
+  <tr>
+    <td>400B+ (unreleased)</td>
+  </tr>
+</tbody></table><p><img src="../assets/Lesson_3/llama2.png" referrerpolicy="no-referrer" alt="image-20240622112944760"></p><p><img src="../assets/Lesson_3/codellama.gif" referrerpolicy="no-referrer" alt="Code Llama animation"></p><p><img src="../assets/Lesson_3/llama3.png" referrerpolicy="no-referrer" alt="image-20240622113020058"></p><div align="center">A) LLaMA-2. B) Code LLaMA. C) LLaMA-3.</div><h3 id='importance-of-instruction-tuning'><span>Importance of Instruction Tuning</span></h3><p><img src="../assets/Lesson_3/importance_of_it.png" referrerpolicy="no-referrer" alt="image-20240622150242878"></p><div align="center">Given the prompt “1 1 2 3 5 8”, the completetion of different LLaMA models. A) LLaMA-65B (without instruction tuning) (<a href="http://arxiv.org/abs/2302.13971">Touvron et al., 2023a</a>). B) LLaMA-3-8B (without instruction tuning). C) LLaMA-3-8B-chat</div><h2 id='gpt-series-model-openai-'><span>GPT Series Model (</span><a href='https://openai.com'><span>OpenAI</span></a><span> </span><img src="../assets/Lesson_3/openai.svg" width="40"><span>)</span></h2><h3 id='access-gpt-by-apis'><span>Access GPT by APIs</span></h3><p><img src="../assets/Lesson_3/access_gpt.png" referrerpolicy="no-referrer" alt="image-20240622150527529"></p><div align="center">Quick start of using OpenAI APIs to access GPT models.* A) Set OPENAI_API_KEY in “.env”. B) Chat with GPT in python. C) Heating models.</div><blockquote><p><a href='https://platform.openai.com/docs/models'><span>https://</span></a><a href='https://platform.openai.com/docs/models'><span>platform.openai.com/docs/models</span></a></p><p><a href='https://platform.openai.com/docs/quickstart' target='_blank' class='url'>https://platform.openai.com/docs/quickstart</a></p></blockquote><h3 id='well-developed-llm-based-product'><span>Well-developed LLM-based Product</span></h3><p><img src="../assets/Lesson_3/langchain-chatchat.png" referrerpolicy="no-referrer" alt="image-20240622150703797"></p><div align="center">LangChain-Chatchat* Web UI Demo.</div><blockquote><p><a href='https://github.com/chatchat-space/Langchain-Chatchat/' target='_blank' class='url'>https://github.com/chatchat-space/Langchain-Chatchat/</a></p></blockquote><h2 id='awesome-large-language-models'><span>Awesome Large Language Models</span></h2><h3 id='glm-series-zhipu-ai--tsinghua-university-'><span>GLM Series (</span><a href='https://www.zhipuai.cn/'><span>Zhipu AI</span></a><span> </span><img src="../assets/Lesson_3/zhipu.svg" width="40"><span>&amp; </span><a href='https://www.tsinghua.edu.cn/en/index.htm'><span>Tsinghua University</span></a><span> </span><img src="../assets/Lesson_3/Tsinghua_University_Logo.svg" width="40"><span>)</span></h3><p><span>GLM (</span><a href='http://arxiv.org/abs/2103.10360'><span>Du et al., 2022</span></a><span>) → GLM-130B (</span><a href='http://arxiv.org/abs/2210.02414'><span>Zeng et al., 2022</span></a><span>) → ChatGLM-6B [</span><a href='https://github.com/THUDM/ChatGLM-6B'><span>GitHub</span></a><span>, 2023] → WebGLM (</span><a href='http://arxiv.org/abs/2306.07906'><span>Liu et al., 2023</span></a><span>) → ChatGLM2-6B [</span><a href='https://github.com/THUDM/ChatGLM2-6B'><span>GitHub</span></a><span>, 2023] → ChatGLM3-6B [</span><a href='https://github.com/THUDM/ChatGLM3'><span>GitHub</span></a><span>, 2023] → GLM4-9B (</span><a href='http://arxiv.org/abs/2406.12793'><span>GLM </span></a><a href='http://arxiv.org/abs/2406.12793'><span>Team, 2024</span></a><span>)</span></p><p><img src="../assets/Lesson_3/glm4_performance_1.png" referrerpolicy="no-referrer" alt="image-20240622172846239"></p><div align="center">GLM-4 performance on benchmarks. </div><p><img src="../assets/Lesson_3/glm4_performance_2.png" referrerpolicy="no-referrer" alt="image-20240622172846239"></p><div align="center">GLM-4 performance on LongBench-Chat (<a href="http://arxiv.org/abs/2401.18058">Bai et al., 2024</a>). </div><h3 id='mixtral-series-mistral-ai-'><span>Mixtral Series (</span><a href='https://mistral.ai/'><span>Mistral AI</span></a><span> </span><img src="../assets/Lesson_3/mistral_logo.svg" width="40"><span>)</span></h3><p><img src="../assets/Lesson_3/mixtral_performance.png" referrerpolicy="no-referrer" alt="image-20240622173442855"></p><div align="center">Mistral 7B (<a href="http://arxiv.org/abs/2401.04088">Jiang et al., 2024</a>), Mixtral 8x7B (<a href="http://arxiv.org/abs/2401.04088">Jiang et al., 2024</a>) and Mixtral 8x22B* all belong to a family of highly efficient models compared to the other open models. A) Measure of the performance (MMLU) versus inference budget tradeoff (number of active parameters). B) Maths &amp; Coding. C) Reasoning and knowledge.</div><blockquote><p><a href='https://mistral.ai/news/mixtral-8x22b/' target='_blank' class='url'>https://mistral.ai/news/mixtral-8x22b/</a></p></blockquote><p>&nbsp;</p><h3 id='claude-series-anthropic-'><span>Claude Series (</span><a href='https://www.anthropic.com/'><span>Anthropic</span></a><span> </span><img src="../assets/Lesson_3/anthropic_logo.svg" width="40"><span>)</span></h3><p><img src="../assets/Lesson_3/cluade_performance.png" referrerpolicy="no-referrer" alt="image-20240622173651074"></p><div align="center">Introducing Claude 3.5 Sonnet.* (Model size of Claude 3 Haiku, Sonnet and Opus are estimated as 20B, 70B and 2T respectively).</div><blockquote><p><a href='https://www.anthropic.com/news/claude-3-5-sonnet' target='_blank' class='url'>https://www.anthropic.com/news/claude-3-5-sonnet</a></p></blockquote><h3 id='gemeni-series-google-'><span>Gemeni Series (</span><a href='https://research.google/'><span>Google</span></a><span> </span><img src="../assets/Lesson_3/google_logo.svg" width="40"><span>)</span></h3><p><img src="../assets/Lesson_3/gemini_pro.gif" referrerpolicy="no-referrer"></p><div align="center">Access Google’s most capable AI models with Gemini Advanced (Gemini 1.5 Pro).*</div><blockquote><p><a href='https://www.youtube.com/watch?v=25A-jj61z7w' target='_blank' class='url'>https://www.youtube.com/watch?v=25A-jj61z7w</a></p></blockquote><h2 id='references'><span>References</span></h2><p><span>Bai, Y., Lv, X., Zhang, J., He, Y., Qi, J., Hou, L., Tang, J., Dong, Y., &amp; Li, J. (2024). </span><em><span>LongAlign: A Recipe for Long Context Alignment of Large Language Models</span></em><span> (arXiv:2401.18058). arXiv. </span><a href='https://doi.org/10.48550/arXiv.2401.18058' target='_blank' class='url'>https://doi.org/10.48550/arXiv.2401.18058</a></p><p><span>Chen, M., Tworek, J., Jun, H., Yuan, Q., Pinto, H. P. de O., Kaplan, J., Edwards, H., Burda, Y., Joseph, N., Brockman, G., Ray, A., Puri, R., Krueger, G., Petrov, M., Khlaaf, H., Sastry, G., Mishkin, P., Chan, B., Gray, S., … Zaremba, W. (2021). </span><em><span>Evaluating Large Language Models Trained on Code</span></em><span> (arXiv:2107.03374). arXiv. </span><a href='http://arxiv.org/abs/2107.03374' target='_blank' class='url'>http://arxiv.org/abs/2107.03374</a></p><p><span>Chiang, W.-L., Zheng, L., Sheng, Y., Angelopoulos, A. N., Li, T., Li, D., Zhang, H., Zhu, B., Jordan, M., Gonzalez, J. E., &amp; Stoica, I. (2024). </span><em><span>Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference</span></em><span> (arXiv:2403.04132). arXiv. </span><a href='https://doi.org/10.48550/arXiv.2403.04132' target='_blank' class='url'>https://doi.org/10.48550/arXiv.2403.04132</a></p><p><span>Du, Z., Qian, Y., Liu, X., Ding, M., Qiu, J., Yang, Z., &amp; Tang, J. (2022). </span><em><span>GLM: General Language Model Pretraining with Autoregressive Blank Infilling</span></em><span> (arXiv:2103.10360). arXiv. </span><a href='https://doi.org/10.48550/arXiv.2103.10360' target='_blank' class='url'>https://doi.org/10.48550/arXiv.2103.10360</a></p><p><span>GLM Team. (2024). </span><em><span>ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools</span></em><span> (arXiv:2406.12793). arXiv. </span><a href='https://doi.org/10.48550/arXiv.2406.12793' target='_blank' class='url'>https://doi.org/10.48550/arXiv.2406.12793</a></p><p><span>Hendrycks, D., Burns, C., Basart, S., Zou, A., Mazeika, M., Song, D., &amp; Steinhardt, J. (2021). </span><em><span>Measuring Massive Multitask Language Understanding</span></em><span> (arXiv:2009.03300). arXiv. </span><a href='https://doi.org/10.48550/arXiv.2009.03300' target='_blank' class='url'>https://doi.org/10.48550/arXiv.2009.03300</a></p><p><span>Hendrycks, D., Burns, C., Kadavath, S., Arora, A., Basart, S., Tang, E., Song, D., &amp; Steinhardt, J. (2021). </span><em><span>Measuring Mathematical Problem Solving With the MATH Dataset</span></em><span> (arXiv:2103.03874). arXiv. </span><a href='https://doi.org/10.48550/arXiv.2103.03874' target='_blank' class='url'>https://doi.org/10.48550/arXiv.2103.03874</a></p><p><span>Jiang, A. Q., Sablayrolles, A., Roux, A., Mensch, A., Savary, B., Bamford, C., Chaplot, D. S., Casas, D. de las, Hanna, E. B., Bressand, F., Lengyel, G., Bour, G., Lample, G., Lavaud, L. R., Saulnier, L., Lachaux, M.-A., Stock, P., Subramanian, S., Yang, S., … Sayed, W. E. (2024). </span><em><span>Mixtral of Experts</span></em><span> (arXiv:2401.04088). arXiv. </span><a href='http://arxiv.org/abs/2401.04088' target='_blank' class='url'>http://arxiv.org/abs/2401.04088</a></p><p><span>Liu, X., Lai, H., Yu, H., Xu, Y., Zeng, A., Du, Z., Zhang, P., Dong, Y., &amp; Tang, J. (2023). </span><em><span>WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences</span></em><span> (arXiv:2306.07906). arXiv. </span><a href='https://doi.org/10.48550/arXiv.2306.07906' target='_blank' class='url'>https://doi.org/10.48550/arXiv.2306.07906</a></p><p><span>Rein, D., Hou, B. L., Stickland, A. C., Petty, J., Pang, R. Y., Dirani, J., Michael, J., &amp; Bowman, S. R. (2023). </span><em><span>GPQA: A Graduate-Level Google-Proof Q&amp;A Benchmark</span></em><span> (arXiv:2311.12022). arXiv. </span><a href='https://doi.org/10.48550/arXiv.2311.12022' target='_blank' class='url'>https://doi.org/10.48550/arXiv.2311.12022</a></p><p><span>Rozière, B., Gehring, J., Gloeckle, F., Sootla, S., Gat, I., Tan, X. E., Adi, Y., Liu, J., Sauvestre, R., Remez, T., Rapin, J., Kozhevnikov, A., Evtimov, I., Bitton, J., Bhatt, M., Ferrer, C. C., Grattafiori, A., Xiong, W., Défossez, A., … Synnaeve, G. (2024). </span><em><span>Code Llama: Open Foundation Models for Code</span></em><span> (arXiv:2308.12950). arXiv. </span><a href='https://doi.org/10.48550/arXiv.2308.12950' target='_blank' class='url'>https://doi.org/10.48550/arXiv.2308.12950</a></p><p><span>Touvron, H., Lavril, T., Izacard, G., Martinet, X., Lachaux, M.-A., Lacroix, T., Rozière, B., Goyal, N., Hambro, E., Azhar, F., Rodriguez, A., Joulin, A., Grave, E., &amp; Lample, G. (2023a). </span><em><span>LLaMA: Open and Efficient Foundation Language Models</span></em><span> (arXiv:2302.13971). arXiv. </span><a href='https://doi.org/10.48550/arXiv.2302.13971' target='_blank' class='url'>https://doi.org/10.48550/arXiv.2302.13971</a></p><p><span>Touvron, H., Martin, L., Stone, K., Albert, P., Almahairi, A., Babaei, Y., Bashlykov, N., Batra, S., Bhargava, P., Bhosale, S., Bikel, D., Blecher, L., Ferrer, C. C., Chen, M., Cucurull, G., Esiobu, D., Fernandes, J., Fu, J., Fu, W., … Scialom, T. (2023b). </span><em><span>Llama 2: Open Foundation and Fine-Tuned Chat Models</span></em><span> (arXiv:2307.09288). arXiv. </span><a href='https://doi.org/10.48550/arXiv.2307.09288' target='_blank' class='url'>https://doi.org/10.48550/arXiv.2307.09288</a></p><p><span>Xu, R., Wang, Z., Fan, R.-Z., &amp; Liu, P. (2024). </span><em><span>Benchmarking Benchmark Leakage in Large Language Models</span></em><span> (arXiv:2404.18824). arXiv. </span><a href='https://doi.org/10.48550/arXiv.2404.18824' target='_blank' class='url'>https://doi.org/10.48550/arXiv.2404.18824</a></p><p><span>Zeng, A., Liu, X., Du, Z., Wang, Z., Lai, H., Ding, M., Yang, Z., Xu, Y., Zheng, W., Xia, X., Tam, W. L., Ma, Z., Xue, Y., Zhai, J., Chen, W., Zhang, P., Dong, Y., &amp; Tang, J. (2023). </span><em><span>GLM-130B: An Open Bilingual Pre-trained Model</span></em><span> (arXiv:2210.02414). arXiv. </span><a href='https://doi.org/10.48550/arXiv.2210.02414' target='_blank' class='url'>https://doi.org/10.48550/arXiv.2210.02414</a></p></div></div>
+</body>
+</html>
