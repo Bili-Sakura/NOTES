@@ -1,0 +1,13 @@
+<mxfile host="65bd71144e">
+    <diagram id="gAKrI1UIlOkwRQxUflAv" name="Page-1">
+        <mxGraphModel dx="1970" dy="1408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=data:image/svg+xml,PHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBoZWlnaHQ9IjIwMCIgd2lkdGg9IjIwMCIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMTAyNCAxMDI0IiBjbGFzcz0iaWNvbiI+PHBhdGggZmlsbD0iIzI2MkIzOSIgZD0iTTE5NS43NjQ3MDYgOTkzLjg4MjM1M1YxMjguMzAxMTc2aDYwLjIzNTI5NFY5OTMuODgyMzUzeiIvPjxwYXRoIGZpbGw9IiMyNjJCMzkiIGQ9Ik0yMjUuODgyMzUzIDMwLjExNzY0N2wxMTMuMjQyMzUzIDE0MS41NTI5NDFIMTEyLjY0TDIyNS44ODIzNTMgMzAuMTE3NjQ3ek0zMC4xMTc2NDcgNzU4LjM2MjM1M2g4NjUuNTgxMTc3djYwLjIzNTI5NEgzMC4xMTc2NDd6Ii8+PHBhdGggZmlsbD0iIzI2MkIzOSIgZD0iTTk5My44ODIzNTMgNzg4LjQ4bC0xNDEuNTUyOTQxIDExMy4yNDIzNTN2LTIyNi40ODQ3MDZsMTQxLjU1Mjk0MSAxMTMuMjQyMzUzeiIvPjwvc3ZnPg==;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="120" width="270" height="270" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
