@@ -4,8 +4,8 @@
 
 - **Author:** Sakura
 - **Date Created:** June 23, 2024
-- **Last Updated:** June 23, 2024
-- **Version:** 1.0.0
+- **Last Updated:** August 9, 2024
+- **Version:** 1.1
 
 <div align="center">
 <img src="./assets/sakura_profile.bmp" alt="sakura_profile">
@@ -16,19 +16,24 @@ Profile of Sakura
 
 ## QUICK LINKS
 
-### Course
+### Course <a href="https://space.bilibili.com/3546681717033402"><img src="https://img.shields.io/badge/Bilibili-Sa神带你学AI-00A1D6?logo=bilibili&logoColor=white"></a>
 
-[【序】五分钟了解大语言模型](./Bilibili_Course/LLM/course_notes/Markdown/【序】五分钟了解大语言模型.md)
+![alt text](./assets/bilibili_mainpage.png)
 
-[【论文导读】大语言模型综述（一）：介绍](./Bilibili_Course/LLM/course_notes/Markdown/【论文导读】大语言模型综述（一）：介绍.md)
-
-[【论文导读】大语言模型综述（二）：概述](./Bilibili_Course/LLM/course_notes/Markdown/【论文导读】大语言模型综述（二）：概述.md)
-
-[【论文导读】大语言模型综述（二）：GPT系列的技术发展历程](./Bilibili_Course/LLM/course_notes/Markdown/【论文导读】大语言模型综述（二）：GPT系列的技术发展历程.md)
-
-[【论文导读】大语言模型综述（三）：主流大语言模型介绍](./Bilibili_Course/LLM/course_notes/Markdown/【论文导读】大语言模型综述（三）：主流大语言模型介绍.md)
-
-[【论文导读】大语言模型综述（四）：预训练和微调](./Bilibili_Course/LLM/course_notes/Markdown/【论文导读】大语言模型综述（四）：预训练和微调.md)
+| Title | Video | Category | Supplyment |
+|-------|------|----------|----------|
+| 【序】五分钟了解大语言模型 | <a href="https://www.bilibili.com/video/BV1rs421N7yw"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | LLM | [Keynote](./Bilibili_Course/LLM/PowerPoint/【序】五分钟了解大模型.pptx) |
+| 【论文导读】大语言模型综述（一）：介绍 | <a href="https://www.bilibili.com/video/BV1NZ421472Z"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | LLM |  |
+| 【论文导读】大语言模型综述（二）：大语言模型技术背景 | <a href="https://www.bilibili.com/video/BV1dH4y1u7Fs"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | LLM |  |
+| 【论文导读】大语言模型综述（三）：GPT系列的技术发展历程 | <a href="https://www.bilibili.com/video/BV1Kc3uesEPU"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | LLM | [Keynote](./Bilibili_Course/LLM/PowerPoint/【论文导读】大语言模型综述（二）：GPT系列的技术发展历程.pptx) |
+| 【论文导读】大语言模型综述（四）：主流大语言模型介绍 | <a href="https://www.bilibili.com/video/BV1kp3KerEj1"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | LLM | [Keynote](./Bilibili_Course/LLM/PowerPoint/【论文导读】大语言模型综述（三）：主流大语言模型介绍.pptx) |
+| 【论文导读】大语言模型综述（五）：预训练和微调 | <a href="https://www.bilibili.com/video/BV1QVbYe5ERq"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | LLM |  |
+| 大语言模型杂谈（一）：模型越大，能力就越强吗？ | <a href="https://www.bilibili.com/video/BV1YT421q7dG"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | LLM | [Keynote](./Bilibili_Course/LLM/PowerPoint/【Presentation】大语言模型杂谈（一）：模型越大，能力就越强吗？.pptx) |
+| 大语言模型杂谈（二）：大模型在地球科学的最佳实践-K2 | <a href="https://www.bilibili.com/video/BV1ssa7eaEVT"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | LLM |  |
+| 【论文导读】多模态大语言模型综述（一）介绍 | <a href="https://www.bilibili.com/video/BV1oVaZewEm6"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM |  |
+| 【论文导读】多模态大语言模型综述（二）模型架构 | <a href="https://www.bilibili.com/video/BV1B3aZeYE3c"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM |  |
+| 【论文导读】多模态大语言模型综述（三）训练技术和数据源 | <a href="https://www.bilibili.com/video/BV1CKYeekEMC"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM |  |
+|  |  |  |  |
 
 ### Products
 
@@ -38,7 +43,7 @@ Profile of Sakura
 
 [An Introduction to Novel Data Driven Weather Forecasting Models](./Products/【PaperWriting】An_Introduction_to_Novel_Data_Driven_Weather_Forecasting_Models.pdf)
 
-## Course Outline (Conception Version)
+<!-- ## Course Outline (Conception Version)
 
 ### A. 科研工具分享
 
@@ -175,4 +180,4 @@ CCF-B: ECCV & TGRS
 </div>
 <div align="center">
 Demo
-</div>
+</div> -->
