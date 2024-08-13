@@ -33,7 +33,8 @@ Profile of Sakura
 | 【论文导读】多模态大语言模型综述（一）介绍 | <a href="https://www.bilibili.com/video/BV1oVaZewEm6"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM |  |
 | 【论文导读】多模态大语言模型综述（二）模型架构 | <a href="https://www.bilibili.com/video/BV1B3aZeYE3c"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM |  |
 | 【论文导读】多模态大语言模型综述（三）训练技术和数据源 | <a href="https://www.bilibili.com/video/BV1CKYeekEMC"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM |  |
-|  |  |  |  |
+| 【论文导读】多模态大语言模型综述（四）评估 | <a href="https://www.bilibili.com/video/BV15pYRepEbE"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM |  |
+| 【论文导读】视觉语言地学大模型综述（一）导论 | <a href="https://www.bilibili.com/video/BV1gPeAeqEad"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | VLGFM |  |
 
 ### Products
 
