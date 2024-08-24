@@ -4,7 +4,7 @@
 
 - **Author:** Sakura
 - **Date Created:** June 23, 2024
-- **Last Updated:** August 13, 2024
+- **Last Updated:** August 20, 2024
 - **Version:** 1.2
 
 <div align="center">
@@ -35,8 +35,13 @@ Profile of Sakura
 | 【论文导读】多模态大语言模型综述（三）训练技术和数据源 | <a href="https://www.bilibili.com/video/BV1CKYeekEMC"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM |  |
 | 【论文导读】多模态大语言模型综述（四）评估 | <a href="https://www.bilibili.com/video/BV15pYRepEbE"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM |  |
 | 【论文导读】视觉语言地学大模型综述（一）导论 | <a href="https://www.bilibili.com/video/BV1gPeAeqEad"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | VLGFM |  |
-|  |  |  | |
-|  |  |  | |
+| 【论文导读】RSGPT: A remote sensing vision language model and benchmark | <a href="https://www.bilibili.com/video/BV19qp9eoE1Q"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | VLGFM |  |
+| 【论文导读】RemoteCLIP: A vision language foundation model for remote sensing | <a href="https://www.bilibili.com/video/BV1sHpde2ELH"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | VLGFM |  |
+| 【论文导读】DiffusionSat:A generative foundation model for satellite imagery | <a href="https://www.bilibili.com/video/BV1FXpoe5EAn"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | VLGFM |  |
+| 【论文导读】视觉语言地学大模型综述（二）模型能力和下游任务 | <a href="https://www.bilibili.com/video/BV1MPWAe3EmK"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | VLGFM |  |
+| 【白皮书解读】1.1 空间数据智能大模型的定义及其发展历程 | <a href="https://www.bilibili.com/video/BV14vWKe2EgF"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | SDIFM |  |
+| 【白皮书解读】1.2 研究现状 | <a href="https://www.bilibili.com/video/BV1H3pmenEhV"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | SDIFM |  |
+| 【白皮书解读】1.3-1.4 空间数据智能大模型面临的挑战 | <a href="https://www.bilibili.com/video/BV1a5WpeKEQN"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | SDIFM |  |
 
 ### Products
 
