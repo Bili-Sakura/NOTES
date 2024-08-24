@@ -4,8 +4,8 @@
 
 - **Author:** Sakura
 - **Date Created:** June 23, 2024
-- **Last Updated:** August 20, 2024
-- **Version:** 1.2
+- **Last Updated:** August 24, 2024
+- **Version:** 1.3
 
 <div align="center">
 <img src="./assets/sakura_profile.bmp" alt="sakura_profile">
@@ -34,6 +34,8 @@ Profile of Sakura
 | 【论文导读】多模态大语言模型综述（二）模型架构 | <a href="https://www.bilibili.com/video/BV1B3aZeYE3c"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM |  |
 | 【论文导读】多模态大语言模型综述（三）训练技术和数据源 | <a href="https://www.bilibili.com/video/BV1CKYeekEMC"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM |  |
 | 【论文导读】多模态大语言模型综述（四）评估 | <a href="https://www.bilibili.com/video/BV15pYRepEbE"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM |  |
+| 【论文导读】BLIP系列（一）：BLIP | <a href="https://www.bilibili.com/video/BV1hgWXenEiN"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM | [Keynote](./Bilibili_Course/LLM/PowerPoint/BLIP.pptx) |
+| 【论文导读】BLIP系列（二）：BLIP-2 | <a href="https://www.bilibili.com/video/BV1FfWde5EaG"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM | [Keynote](./Bilibili_Course/LLM/PowerPoint/BLIP-2.pptx) |
 | 【论文导读】视觉语言地学大模型综述（一）导论 | <a href="https://www.bilibili.com/video/BV1gPeAeqEad"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | VLGFM |  |
 | 【论文导读】RSGPT: A remote sensing vision language model and benchmark | <a href="https://www.bilibili.com/video/BV19qp9eoE1Q"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | VLGFM |  |
 | 【论文导读】RemoteCLIP: A vision language foundation model for remote sensing | <a href="https://www.bilibili.com/video/BV1sHpde2ELH"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | VLGFM |  |
