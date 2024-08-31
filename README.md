@@ -46,8 +46,7 @@ Profile of Sakura
 | 【白皮书解读】1.3-1.4 空间数据智能大模型面临的挑战 | <a href="https://www.bilibili.com/video/BV1a5WpeKEQN"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | SDIFM |  |
 | 【Youtube精校双语】扩散模型原理概述 Why Does Diffusion Work Better than Auto-Regression | <a href="https://www.bilibili.com/video/BV1H2W6eTEmp"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Diffusion Model |  |
 | 【双语】Denoising Diffusion Probabilistic Models - Explained | <a href="https://www.bilibili.com/video/BV1k2HjewEWL"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Diffusion Model |  |
-| 【双语】Denoising Diffusion Probabilistic Models Code - DDPM Pytorch Implementation
- | <a href="https://www.bilibili.com/video/BV15sndeoExL"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Diffusion Model |  |
+| 【双语】Denoising Diffusion Probabilistic Models Code - DDPM Pytorch Implementation|<a href="https://www.bilibili.com/video/BV15sndeoExL"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a>|Diffusion Model||
 | 【双语】The U-Net explained in 10 minutes | <a href="https://www.bilibili.com/video/BV1trnZeXEtK"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Diffusion Model |  |
 
 ### Products
