@@ -4,8 +4,8 @@
 
 - **Author:** Sakura
 - **Date Created:** June 23, 2024
-- **Last Updated:** August 31, 2024
-- **Version:** 1.4
+- **Last Updated:** Sep 4, 2024
+- **Version:** 1.5
 
 <div align="center">
 <img src="./assets/sakura_profile.bmp" alt="sakura_profile">
