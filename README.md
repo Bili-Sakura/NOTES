@@ -36,6 +36,7 @@ Profile of Sakura
 | 【论文导读】多模态大语言模型综述（四）评估 | <a href="https://www.bilibili.com/video/BV15pYRepEbE"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM |  |
 | 【论文导读】BLIP系列（一）：BLIP | <a href="https://www.bilibili.com/video/BV1hgWXenEiN"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM | [Keynote](./Bilibili_Course/LLM/PowerPoint/BLIP.pptx) |
 | 【论文导读】BLIP系列（二）：BLIP-2 | <a href="https://www.bilibili.com/video/BV1FfWde5EaG"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM | [Keynote](./Bilibili_Course/LLM/PowerPoint/BLIP-2.pptx) |
+|  |  |  |  |
 | 【论文导读】视觉语言地学大模型综述（一）导论 | <a href="https://www.bilibili.com/video/BV1gPeAeqEad"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | VLGFM |  |
 | 【论文导读】RSGPT: A remote sensing vision language model and benchmark | <a href="https://www.bilibili.com/video/BV19qp9eoE1Q"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | VLGFM |  |
 | 【论文导读】RemoteCLIP: A vision language foundation model for remote sensing | <a href="https://www.bilibili.com/video/BV1sHpde2ELH"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | VLGFM |  |
@@ -44,6 +45,7 @@ Profile of Sakura
 | 【白皮书解读】1.1 空间数据智能大模型的定义及其发展历程 | <a href="https://www.bilibili.com/video/BV14vWKe2EgF"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | SDIFM |  |
 | 【白皮书解读】1.2 研究现状 | <a href="https://www.bilibili.com/video/BV1H3pmenEhV"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | SDIFM |  |
 | 【白皮书解读】1.3-1.4 空间数据智能大模型面临的挑战 | <a href="https://www.bilibili.com/video/BV1a5WpeKEQN"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | SDIFM |  |
+|  |  |  | |
 
 ### Products
 
