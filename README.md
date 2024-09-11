@@ -4,8 +4,8 @@
 
 - **Author:** Sakura
 - **Date Created:** June 23, 2024
-- **Last Updated:** Sep 4, 2024
-- **Version:** 1.5
+- **Last Updated:** Sep 11, 2024
+- **Version:** 1.6
 
 <div align="center">
 <img src="./assets/sakura_profile.bmp" alt="sakura_profile">
@@ -30,6 +30,9 @@ Profile of Sakura
 | 【论文导读】大语言模型综述（五）：预训练和微调 | <a href="https://www.bilibili.com/video/BV1QVbYe5ERq"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | LLM | [Keynote](./Bilibili_Course/LLM/PowerPoint/【论文导读】大语言模型综述（四）：预训练和微调.pptx) |
 | 大语言模型杂谈（一）：模型越大，能力就越强吗？ | <a href="https://www.bilibili.com/video/BV1YT421q7dG"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | LLM | [Keynote](./Bilibili_Course/LLM/PowerPoint/【Presentation】大语言模型杂谈（一）：模型越大，能力就越强吗？.pptx) |
 | 大语言模型杂谈（二）：大模型在地球科学的最佳实践-K2 | <a href="https://www.bilibili.com/video/BV1ssa7eaEVT"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | LLM |  |
+
+| Title | Video | Category | Supplyment |
+|-------|------|----------|----------|
 | 【论文导读】多模态大语言模型综述（一）介绍 | <a href="https://www.bilibili.com/video/BV1oVaZewEm6"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM |  |
 | 【论文导读】多模态大语言模型综述（二）模型架构 | <a href="https://www.bilibili.com/video/BV1B3aZeYE3c"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM |  |
 | 【论文导读】多模态大语言模型综述（三）训练技术和数据源 | <a href="https://www.bilibili.com/video/BV1CKYeekEMC"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM |  |
@@ -40,6 +43,9 @@ Profile of Sakura
 | 【论文导读】BLIP系列（二）：BLIP-3 | <a href="https://www.bilibili.com/video/BV1ckHvemEhm"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM | [Keynote](./Bilibili_Course/LLM/PowerPoint/BLIP-3.pptx) |
 | 【论文导读】CogVLM系列（一）：CogVLM | <a href="https://www.bilibili.com/video/BV1J7HneBEMU"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM |  |
 | 【论文导读】CogVLM系列（二）：CogVLM Family | <a href="https://www.bilibili.com/video/BV19hHaetEwE"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM |  |
+
+| Title | Video | Category | Supplyment |
+|-------|------|----------|----------|
 | 【论文导读】视觉语言地学大模型综述（一）导论 | <a href="https://www.bilibili.com/video/BV1gPeAeqEad"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | VLGFM |  |
 | 【论文导读】RSGPT: A remote sensing vision language model and benchmark | <a href="https://www.bilibili.com/video/BV19qp9eoE1Q"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | VLGFM |  |
 | 【论文导读】RemoteCLIP: A vision language foundation model for remote sensing | <a href="https://www.bilibili.com/video/BV1sHpde2ELH"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | VLGFM |  |
@@ -48,10 +54,19 @@ Profile of Sakura
 | 【白皮书解读】1.1 空间数据智能大模型的定义及其发展历程 | <a href="https://www.bilibili.com/video/BV14vWKe2EgF"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | SDIFM |  |
 | 【白皮书解读】1.2 研究现状 | <a href="https://www.bilibili.com/video/BV1H3pmenEhV"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | SDIFM |  |
 | 【白皮书解读】1.3-1.4 空间数据智能大模型面临的挑战 | <a href="https://www.bilibili.com/video/BV1a5WpeKEQN"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | SDIFM |  |
+
+| Title | Video | Category | Supplyment |
+|-------|------|----------|----------|
+|【代码讲解】十分钟快速上手扩散模型Stable Diffusion| <a href="https://www.bilibili.com/video/BV12zpweeEii"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Diffusion Model |  |
+|【论文导读】Stable Diffusion（一）：介绍| <a href="https://www.bilibili.com/video/BV17tpMeTE9n"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Diffusion Model |  |
+|【论文导读】Stable Diffusion（二）：相关工作| <a href="https://www.bilibili.com/video/BV1tWpte6Exm"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Diffusion Model |  |
+|【双语】对抗生成网络（GAN）介绍 Generative Adversarial Networks| <a href="https://www.bilibili.com/video/BV1YyHSekEE2"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | GAN |  |
+|【双语】Variational Autoencoders| <a href="https://www.bilibili.com/video/BV19S48eNEwD"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | VAE |  |
+|【双语】Vision Transformers - Explained and Implement| <a href="https://www.bilibili.com/video/BV1rTpee2ERT"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | ViT |  |
+| 【双语】The U-Net explained in 10 minutes | <a href="https://www.bilibili.com/video/BV1trnZeXEtK"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | U-Net |  |
 | 【双语】扩散模型原理概述 Why Does Diffusion Work Better than Auto-Regression | <a href="https://www.bilibili.com/video/BV1H2W6eTEmp"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Diffusion Model |  |
 | 【双语】Denoising Diffusion Probabilistic Models - Explained | <a href="https://www.bilibili.com/video/BV1k2HjewEWL"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Diffusion Model |  |
 | 【双语】Denoising Diffusion Probabilistic Models Code - DDPM Pytorch Implementation|<a href="https://www.bilibili.com/video/BV15sndeoExL"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a>|Diffusion Model||
-| 【双语】The U-Net explained in 10 minutes | <a href="https://www.bilibili.com/video/BV1trnZeXEtK"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Diffusion Model |  |
 | 【双语】Stable Diffusion from Scratch in PyTorch - Unconditional LDM | <a href="https://www.bilibili.com/video/BV1WeHYeLEbo"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Diffusion Model |  |
 | 【双语】Stable Diffusion from Scratch in PyTorch - Conditional LDM | <a href="https://www.bilibili.com/video/BV11tHkegEPg"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Diffusion Model |  |
 | 【英字】Coding Stable Diffusion from scratch in PyTorch | <a href="https://www.bilibili.com/video/BV14rHrekEBf"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Diffusion Model |  |
