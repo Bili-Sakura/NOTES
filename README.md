@@ -4,8 +4,8 @@
 
 - **Author:** Sakura
 - **Date Created:** June 23, 2024
-- **Last Updated:** Sep 11, 2024
-- **Version:** 1.6
+- **Last Updated:** Sep 16, 2024
+- **Version:** 1.7
 
 <div align="center">
 <img src="./assets/sakura_profile.bmp" alt="sakura_profile">
@@ -18,7 +18,10 @@ Profile of Sakura
 
 ### Course <a href="https://space.bilibili.com/3546681717033402"><img src="https://img.shields.io/badge/Bilibili-Sa神带你学AI-00A1D6?logo=bilibili&logoColor=white"></a>
 
-![alt text](./assets/bilibili_mainpage.png)
+
+
+<details>
+<summary>LLM</summary>
 
 | Title | Video | Category | Supplyment |
 |-------|------|----------|----------|
@@ -30,6 +33,11 @@ Profile of Sakura
 | 【论文导读】大语言模型综述（五）：预训练和微调 | <a href="https://www.bilibili.com/video/BV1QVbYe5ERq"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | LLM | [Keynote](./Bilibili_Course/LLM/PowerPoint/【论文导读】大语言模型综述（四）：预训练和微调.pptx) |
 | 大语言模型杂谈（一）：模型越大，能力就越强吗？ | <a href="https://www.bilibili.com/video/BV1YT421q7dG"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | LLM | [Keynote](./Bilibili_Course/LLM/PowerPoint/【Presentation】大语言模型杂谈（一）：模型越大，能力就越强吗？.pptx) |
 | 大语言模型杂谈（二）：大模型在地球科学的最佳实践-K2 | <a href="https://www.bilibili.com/video/BV1ssa7eaEVT"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | LLM |  |
+
+</details>
+
+<details>
+<summary>MLLM</summary>
 
 | Title | Video | Category | Supplyment |
 |-------|------|----------|----------|
@@ -44,6 +52,11 @@ Profile of Sakura
 | 【论文导读】CogVLM系列（一）：CogVLM | <a href="https://www.bilibili.com/video/BV1J7HneBEMU"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM |  |
 | 【论文导读】CogVLM系列（二）：CogVLM Family | <a href="https://www.bilibili.com/video/BV19hHaetEwE"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM |  |
 
+</details>
+
+<details>
+<summary>VLGFM</summary>
+
 | Title | Video | Category | Supplyment |
 |-------|------|----------|----------|
 | 【论文导读】视觉语言地学大模型综述（一）导论 | <a href="https://www.bilibili.com/video/BV1gPeAeqEad"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | VLGFM |  |
@@ -54,6 +67,11 @@ Profile of Sakura
 | 【白皮书解读】1.1 空间数据智能大模型的定义及其发展历程 | <a href="https://www.bilibili.com/video/BV14vWKe2EgF"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | SDIFM |  |
 | 【白皮书解读】1.2 研究现状 | <a href="https://www.bilibili.com/video/BV1H3pmenEhV"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | SDIFM |  |
 | 【白皮书解读】1.3-1.4 空间数据智能大模型面临的挑战 | <a href="https://www.bilibili.com/video/BV1a5WpeKEQN"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | SDIFM |  |
+
+</details>
+
+<details>
+<summary>Diffusion Model</summary>
 
 | Title | Video | Category | Supplyment |
 |-------|------|----------|----------|
@@ -70,15 +88,43 @@ Profile of Sakura
 | 【双语】Stable Diffusion from Scratch in PyTorch - Unconditional LDM | <a href="https://www.bilibili.com/video/BV1WeHYeLEbo"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Diffusion Model |  |
 | 【双语】Stable Diffusion from Scratch in PyTorch - Conditional LDM | <a href="https://www.bilibili.com/video/BV11tHkegEPg"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Diffusion Model |  |
 | 【英字】Coding Stable Diffusion from scratch in PyTorch | <a href="https://www.bilibili.com/video/BV14rHrekEBf"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Diffusion Model |  |
-| 【双语】ControlNet with Diffusion Models - Explanation and PyTorch Implementatio | <a href="https://www.bilibili.com/video/BV1EHHCePEja"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Diffusion Model |  |
+| 【双语】ControlNet with Diffusion Models - Explanation and PyTorch Implementation | <a href="https://www.bilibili.com/video/BV1EHHCePEja"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Diffusion Model |  |
+| 【双语】Auto-Encoding Variational Bayes （ICLR2024 Test of Time Award） | <a href="https://www.bilibili.com/video/BV1YA4UeJEcH"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | VAE |  |
+| 【双语】VQ-VAE ： Explanation and Implementation | <a href="https://www.bilibili.com/video/BV1BA4ReCEmf"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | VQ-VAE |  |
 
-### Products
+</details>
+
+<details>
+<summary>OpenAI-Image Models</summary>
+
+| Title | Video | Category | Supplyment |
+|-------|------|----------|----------|
+| 【论文导读】OpenAI图像工作系列（一）：iGPT | <a href="https://www.bilibili.com/video/BV1vytwefEkv"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | iGPT |  |
+| 【双语】DALL-E：Explained and Implementation | <a href="https://www.bilibili.com/video/BV1MD42ezEae"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | DALL-E |  |
+
+</details>
+
+<details open>
+<summary>Explainable AI</summary>
+
+| Title | Video | Category | Supplyment |
+|-------|------|----------|----------|
+| 【双语】The moment we stopped understanding AI [AlexNet] | <a href="https://www.bilibili.com/video/BV1XppFeqEz6"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Visualization |  |
+| 【双语】AI can't cross this line and we don't know why. | <a href="https://www.bilibili.com/video/BV1ixtNeBEB3"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Scaling Law |  |
+| 【双语】ICML2024-The Platonic Representation Hypothesis | <a href="https://www.bilibili.com/video/BV1zAtKeVEzv"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Representation Learning |  |
+| 【双语】Latent Space Visualisation PCA, t-SNE, UMAP | <a href="https://www.bilibili.com/video/BV1eX4Ce6EGM"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Visualization |  |
+
+</details>
+
+![bilibili_mainpage](./assets/bilibili_mainpage.png)
+
+<!-- ### Products
 
 [AI for Geoscience: A Survey](./Products/【PaperWriting】AI_for_Geoscience_A_Survey.pdf)
 
 [AI Safety and the Path to AGI: Insights from OpenAI](./Products/【PaperWriting】AI_Safety_and_the_Path_to_AGI_Insights_from_OpenAI.pdf)
 
-[An Introduction to Novel Data Driven Weather Forecasting Models](./Products/【PaperWriting】An_Introduction_to_Novel_Data_Driven_Weather_Forecasting_Models.pdf)
+[An Introduction to Novel Data Driven Weather Forecasting Models](./Products/【PaperWriting】An_Introduction_to_Novel_Data_Driven_Weather_Forecasting_Models.pdf) -->
 
 <!-- ## Course Outline (Conception Version)
 
