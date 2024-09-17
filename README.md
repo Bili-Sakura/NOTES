@@ -14,9 +14,7 @@
 Profile of Sakura
 </div>
 
-## QUICK LINKS
-
-### Course <a href="https://space.bilibili.com/3546681717033402"><img src="https://img.shields.io/badge/Bilibili-Sa神带你学AI-00A1D6?logo=bilibili&logoColor=white"></a>
+## <a href="https://space.bilibili.com/3546681717033402" style="display: inline-block; padding: 10px 20px; background-color: #00A1D6; color: white; text-align: center; text-decoration: none; border-radius: 5px;">Bilibili Home Page</a>
 
 
 
@@ -91,6 +89,7 @@ Profile of Sakura
 | 【双语】ControlNet with Diffusion Models - Explanation and PyTorch Implementation | <a href="https://www.bilibili.com/video/BV1EHHCePEja"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Diffusion Model |  |
 | 【双语】Auto-Encoding Variational Bayes （ICLR2024 Test of Time Award） | <a href="https://www.bilibili.com/video/BV1YA4UeJEcH"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | VAE |  |
 | 【双语】VQ-VAE ： Explanation and Implementation | <a href="https://www.bilibili.com/video/BV1BA4ReCEmf"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | VQ-VAE |  |
+| 【双语】CNN Receptive Field | <a href="https://www.bilibili.com/video/BV1TRtaeeEs4"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | CNN |  |
 
 </details>
 
@@ -101,10 +100,11 @@ Profile of Sakura
 |-------|------|----------|----------|
 | 【论文导读】OpenAI图像工作系列（一）：iGPT | <a href="https://www.bilibili.com/video/BV1vytwefEkv"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | iGPT |  |
 | 【双语】DALL-E：Explained and Implementation | <a href="https://www.bilibili.com/video/BV1MD42ezEae"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | DALL-E |  |
+| 【论文导读】OpenAI图像工作系列（二）：DALL-E | <a href="https://www.bilibili.com/video/BV1rytheHEvN"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | DALL-E | [Keynote](./Bilibili_Course/Diffusion/Keynotes/DALL-E.pptx) |
 
 </details>
 
-<details open>
+<details>
 <summary>Explainable AI</summary>
 
 | Title | Video | Category | Supplyment |
@@ -113,6 +113,24 @@ Profile of Sakura
 | 【双语】AI can't cross this line and we don't know why. | <a href="https://www.bilibili.com/video/BV1ixtNeBEB3"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Scaling Law |  |
 | 【双语】ICML2024-The Platonic Representation Hypothesis | <a href="https://www.bilibili.com/video/BV1zAtKeVEzv"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Representation Learning |  |
 | 【双语】Latent Space Visualisation PCA, t-SNE, UMAP | <a href="https://www.bilibili.com/video/BV1eX4Ce6EGM"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Visualization |  |
+
+</details>
+
+<details open>
+<summary>AI Index Report 2024</summary>
+
+<div align="center">
+<a href="./Bilibili_Course/AI_Index/Keynotes/AI_Index.pptx" style="display: inline-block; padding: 10px 20px; background-color: pink; color: white; text-align: center; text-decoration: none; border-radius: 5px;">Keynote for AI Index Report</a></div>
+
+![cover](./assets/AI_Index.png)
+
+
+| Title | Video | Category | 
+|-------|------|----------|
+| AI Index Report 2024 （一）：Overview | <a href="https://www.bilibili.com/video/BV1dG4oeLEJo"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Overview | 
+| AI Index Report 2024 （二）：Language | <a href="https://www.bilibili.com/video/BV1KJteeKEtT"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Language | 
+
+
 
 </details>
 
