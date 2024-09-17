@@ -120,7 +120,7 @@ Profile of Sakura
 <summary>AI Index Report 2024</summary>
 
 <div align="center">
-<a href="./Bilibili_Course/AI_Index/Keynotes/AI_Index.pptx" style="display: inline-block; padding: 10px 20px; background-color: pink; color: white; text-align: center; text-decoration: none; border-radius: 5px;">Keynote for AI Index Report</a></div>
+<a href="./Bilibili_Course/AI_Index/Keynotes/AI_Index.pptx" style="display: inline-block; padding: 10px 20px; background-color: pink; color: white; text-align: center; text-decoration: none; border-radius: 5px;">Keynote for AI Index Report</a>
 
 ![cover](./assets/AI_Index.png)
 
@@ -130,7 +130,7 @@ Profile of Sakura
 | AI Index Report 2024 （一）：Overview | <a href="https://www.bilibili.com/video/BV1dG4oeLEJo"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Overview | 
 | AI Index Report 2024 （二）：Language | <a href="https://www.bilibili.com/video/BV1KJteeKEtT"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Language | 
 
-
+</div>
 
 </details>
 
