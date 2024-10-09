@@ -20,6 +20,7 @@ Profile of Sakura
 
 <details>
 <summary>LLM</summary>
+<div align="center">
 
 | Title | Video | Category | Supplyment |
 |-------|------|----------|----------|
@@ -32,10 +33,12 @@ Profile of Sakura
 | 大语言模型杂谈（一）：模型越大，能力就越强吗？ | <a href="https://www.bilibili.com/video/BV1YT421q7dG"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | LLM | [Keynote](./Bilibili_Course/LLM/PowerPoint/【Presentation】大语言模型杂谈（一）：模型越大，能力就越强吗？.pptx) |
 | 大语言模型杂谈（二）：大模型在地球科学的最佳实践-K2 | <a href="https://www.bilibili.com/video/BV1ssa7eaEVT"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | LLM |  |
 
+</div>
 </details>
 
 <details>
 <summary>MLLM</summary>
+<div align="center">
 
 | Title | Video | Category | Supplyment |
 |-------|------|----------|----------|
@@ -50,10 +53,12 @@ Profile of Sakura
 | 【论文导读】CogVLM系列（一）：CogVLM | <a href="https://www.bilibili.com/video/BV1J7HneBEMU"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM |  |
 | 【论文导读】CogVLM系列（二）：CogVLM Family | <a href="https://www.bilibili.com/video/BV19hHaetEwE"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | MLLM |  |
 
+</div>
 </details>
 
 <details>
 <summary>VLGFM</summary>
+<div align="center">
 
 | Title | Video | Category | Supplyment |
 |-------|------|----------|----------|
@@ -66,10 +71,12 @@ Profile of Sakura
 | 【白皮书解读】1.2 研究现状 | <a href="https://www.bilibili.com/video/BV1H3pmenEhV"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | SDIFM |  |
 | 【白皮书解读】1.3-1.4 空间数据智能大模型面临的挑战 | <a href="https://www.bilibili.com/video/BV1a5WpeKEQN"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | SDIFM |  |
 
+</div>
 </details>
 
 <details>
 <summary>Diffusion Model</summary>
+<div align="center">
 
 | Title | Video | Category | Supplyment |
 |-------|------|----------|----------|
@@ -91,10 +98,12 @@ Profile of Sakura
 | 【双语】VQ-VAE ： Explanation and Implementation | <a href="https://www.bilibili.com/video/BV1BA4ReCEmf"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | VQ-VAE |  |
 | 【双语】CNN Receptive Field | <a href="https://www.bilibili.com/video/BV1TRtaeeEs4"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | CNN |  |
 
+</div>
 </details>
 
 <details>
 <summary>OpenAI-Image Models</summary>
+<div align="center">
 
 | Title | Video | Category | Supplyment |
 |-------|------|----------|----------|
@@ -102,10 +111,12 @@ Profile of Sakura
 | 【双语】DALL-E：Explained and Implementation | <a href="https://www.bilibili.com/video/BV1MD42ezEae"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | DALL-E |  |
 | 【论文导读】OpenAI图像工作系列（二）：DALL-E | <a href="https://www.bilibili.com/video/BV1rytheHEvN"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | DALL-E | [Keynote](./Bilibili_Course/Diffusion/Keynotes/DALL-E.pptx) |
 
+</div>
 </details>
 
 <details>
 <summary>Explainable AI</summary>
+<div align="center">
 
 | Title | Video | Category | Supplyment |
 |-------|------|----------|----------|
@@ -114,6 +125,7 @@ Profile of Sakura
 | 【双语】ICML2024-The Platonic Representation Hypothesis | <a href="https://www.bilibili.com/video/BV1zAtKeVEzv"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Representation Learning |  |
 | 【双语】Latent Space Visualisation PCA, t-SNE, UMAP | <a href="https://www.bilibili.com/video/BV1eX4Ce6EGM"><img src="https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white"></a> | Visualization |  |
 
+</div>
 </details>
 
 <details open>
