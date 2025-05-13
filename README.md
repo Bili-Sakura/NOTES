@@ -1,12 +1,12 @@
-# <img src="./assets/bilibili.svg" alt="bilibili_icon" width="15%"> Course Repository  
+# <img src="./assets/bilibili.svg" alt="bilibili_icon" width="15%"> Sakura
 
 > [!NOTE] Creator Information
 > **Author:** Sakura  
 > **Date Created:** June 23, 2024  
-> **Last Updated:** March 13, 2024  
+> **Last Updated:** March 13, 2025  
 > **Version:** 2.1
 
-<img src="https://img.shields.io/badge/Bilibili-Home_Page-00A1D6?logo=bilibili&logoColor=white" alt="Bilibili Home Page">
+[<img src="https://img.shields.io/badge/Bilibili-Home_Page-00A1D6?logo=bilibili&logoColor=white" alt="Bilibili Home Page">](https://space.bilibili.com/3546681717033402)
 
 ![bilibili_mainpage](./assets/bilibili_mainpage.png) 
 
