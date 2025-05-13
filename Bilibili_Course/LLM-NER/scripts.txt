@@ -1,0 +1,38 @@
+def calculate_metrics(true_entities, pred_entities, true_quantities, pred_quantities):
+    # 实体提取指标
+    entity_precision = len(set(pred_entities) & set(true_entities)) / len(pred_entities)
+    entity_recall = len(set(pred_entities) & set(true_entities)) / len(true_entities)
+    entity_f1 = 2 * (entity_precision * entity_recall) / (entity_precision + entity_recall)
+
+    # 数量提取指标
+    quantity_precision = len(set(pred_quantities) & set(true_quantities)) / len(pred_quantities)
+    quantity_recall = len(set(pred_quantities) & set(true_quantities)) / len(true_quantities)
+    quantity_f1 = 2 * (quantity_precision * quantity_recall) / (quantity_precision + quantity_recall)
+
+    # 实体与数量匹配指标
+    true_pairs = set(zip(true_entities, true_quantities))
+    pred_pairs = set(zip(pred_entities, pred_quantities))
+    match_precision = len(true_pairs & pred_pairs) / len(pred_pairs)
+    match_recall = len(true_pairs & pred_pairs) / len(true_pairs)
+    match_f1 = 2 * (match_precision * match_recall) / (match_precision + match_recall)
+
+    return {
+        'entity_precision': entity_precision,
+        'entity_recall': entity_recall,
+        'entity_f1': entity_f1,
+        'quantity_precision': quantity_precision,
+        'quantity_recall': quantity_recall,
+        'quantity_f1': quantity_f1,
+        'match_precision': match_precision,
+        'match_recall': match_recall,
+        'match_f1': match_f1
+    }
+
+# 示例数据
+true_entities = ['苹果', '香蕉', '橙子']
+pred_entities = ['苹果', '香蕉', '梨']
+true_quantities = [3, 2, 5]
+pred_quantities = [3, 2, 4]
+
+metrics = calculate_metrics(true_entities, pred_entities, true_quantities, pred_quantities)
+print(metrics)
