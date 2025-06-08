@@ -1,20 +1,33 @@
 def calculate_metrics(true_entities, pred_entities, true_quantities, pred_quantities):
+    """Calculate precision, recall and F1 scores for entity and quantity extraction."""
     # 实体提取指标
-    entity_precision = len(set(pred_entities) & set(true_entities)) / len(pred_entities)
-    entity_recall = len(set(pred_entities) & set(true_entities)) / len(true_entities)
-    entity_f1 = 2 * (entity_precision * entity_recall) / (entity_precision + entity_recall)
+    entity_tp = len(set(pred_entities) & set(true_entities))
+    entity_precision = entity_tp / len(pred_entities) if pred_entities else 0
+    entity_recall = entity_tp / len(true_entities) if true_entities else 0
+    if entity_precision + entity_recall:
+        entity_f1 = 2 * (entity_precision * entity_recall) / (entity_precision + entity_recall)
+    else:
+        entity_f1 = 0
 
     # 数量提取指标
-    quantity_precision = len(set(pred_quantities) & set(true_quantities)) / len(pred_quantities)
-    quantity_recall = len(set(pred_quantities) & set(true_quantities)) / len(true_quantities)
-    quantity_f1 = 2 * (quantity_precision * quantity_recall) / (quantity_precision + quantity_recall)
+    quantity_tp = len(set(pred_quantities) & set(true_quantities))
+    quantity_precision = quantity_tp / len(pred_quantities) if pred_quantities else 0
+    quantity_recall = quantity_tp / len(true_quantities) if true_quantities else 0
+    if quantity_precision + quantity_recall:
+        quantity_f1 = 2 * (quantity_precision * quantity_recall) / (quantity_precision + quantity_recall)
+    else:
+        quantity_f1 = 0
 
     # 实体与数量匹配指标
     true_pairs = set(zip(true_entities, true_quantities))
     pred_pairs = set(zip(pred_entities, pred_quantities))
-    match_precision = len(true_pairs & pred_pairs) / len(pred_pairs)
-    match_recall = len(true_pairs & pred_pairs) / len(true_pairs)
-    match_f1 = 2 * (match_precision * match_recall) / (match_precision + match_recall)
+    pair_tp = len(true_pairs & pred_pairs)
+    match_precision = pair_tp / len(pred_pairs) if pred_pairs else 0
+    match_recall = pair_tp / len(true_pairs) if true_pairs else 0
+    if match_precision + match_recall:
+        match_f1 = 2 * (match_precision * match_recall) / (match_precision + match_recall)
+    else:
+        match_f1 = 0
 
     return {
         'entity_precision': entity_precision,
